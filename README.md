@@ -28,7 +28,6 @@ In diesem Repository findest du alle Materialien für unseren Workshop, in dem d
 
 - Ein Browser (z. B. Firefox)
 - Ein Texteditor (z. B. Notepad++)
-- (Optional) Ein lokaler Webserver für fortgeschrittene Features
 
 ## Lizenz
 
