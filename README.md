@@ -1,40 +1,35 @@
-# IT-Workshop
+# IT-Workshop: Spieleprogrammierung und Open Source/Datenschutz
 
-Überblick
+In diesem Repository findest du alle Materialien für unseren Workshop, in dem du ein kleines Spiel programmierst und mehr über Open Source sowie Datenschutz lernst.
 
-Dieses Repository enthält die Materialien für den Workshop zur Webentwicklung. Die Teilnehmer lernen die Grundlagen von HTML, CSS und JavaScript und erstellen ein eigenes kleines Spiel.
+## Inhalt:
 
-Inhalt:
+- **folien/** → Präsentationsfolien (.pdf)
+- **beispiele/** → Einfache Code-Beispiele für HTML, CSS und JavaScript
+- **projekt/** → Vorlage für dein Mini-Game
+- **links.md** → Nützliche Links und Ressourcen
+- **artikel/** → Relevante Zeitungsartikel zu Open Source und Datenschutz
 
-    folien/ → Präsentationsfolien (.pdf)
-    beispiele/ → Code-Beispiele für HTML, CSS und JavaScript
-    projekt/ → Vorlage für das eigene Spiel
+## Workshop-Ablauf:
 
-Workshop-Ablauf:
+### Teil 1: Spieleprogrammierung
 
-Teil 1:
+1. **Einführung:** Grundlagen von HTML, CSS und JavaScript
+2. **Live-Coding:** Gemeinsam programmieren wir ein einfaches Mini-Game
+3. **Hands-on:** Du erstellst dein eigenes Mini-Game mit der Hilfe von Duck.AI
+4. **Präsentation:** Zeige dein Spiel und teile deine Erfahrungen
 
-    Theorie-Teil: Einführung in die Webentwicklung
-    Live-Coding: Gemeinsam programmieren wir ein kleines Spiel
-    Hands-on: Teilnehmer erstellen ihr eigenes Spiel mit Duck.AI oder Scratch
-    Präsentation: Vorstellung der Projekte
+### Teil 2: Open Source und Datenschutz
 
-Teil 2:
+1. **Vortrag:** Was ist Open Source und warum ist Datenschutz wichtig?
+2. **Diskussion:** Einblick in aktuelle Themen und weiterführende Ressourcen
 
-    Vortrag über Open Source und Datenschutz
+## Voraussetzungen:
 
+- Ein Browser (z. B. Firefox)
+- Ein Texteditor (z. B. Notepad++)
+- (Optional) Ein lokaler Webserver für fortgeschrittene Features
 
-Hands-on: Dein eigenes Spiel
+## Lizenz
 
-Option 1: Erstelle ein Spiel mit HTML, CSS und JavaScript.
-Option 2: Nutze Scratch, um dein Spiel visuell zu programmieren.
-Hilfe: Nutze Duck.AI oder Online-Tutorials zur Unterstützung.
-Voraussetzungen
-
-    Ein Browser (z. B. Firefox)
-    Ein Texteditor (z. B. Notepad++)
-    (Optional) Ein lokaler Webserver für fortgeschrittene Features
-
-Lizenz
-
-Dieses Material steht unter der MIT-Lizenz – nutze und verändere es frei!
+Dieses Material steht unter der MIT-Lizenz – du kannst es frei nutzen und verändern!
