@@ -15,3 +15,5 @@
 [FakeMail](https://www.fakemail.net)
 
 [F-Droid](https://f-droid.org/)
+
+[Tritt dem Fediverse bei](https://jointhefediverse.net)
