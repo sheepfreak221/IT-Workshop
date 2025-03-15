@@ -1,6 +1,6 @@
 # Wichtige Links
 
-Hier sind einige nützliche Ressourcen für den Teil "Open Source und Datenschutz":
+### Hier sind einige nützliche Ressourcen für den Teil "Open Source und Datenschutz":
 
 - [Mimikama](https://www.mimikama.org/) - Aufklärung über Falschmeldungen und Internetbetrug.
 - [CORRECTIV](https://correctiv.org) - Investigativer Journalismus und Faktencheck.
@@ -13,7 +13,7 @@ Hier sind einige nützliche Ressourcen für den Teil "Open Source und Datenschut
 - [F-Droid](https://f-droid.org/) - Open-Source-App-Store für Android.
 - [Tritt dem Fediverse bei](https://jointhefediverse.net) - Entdecke dezentrale soziale Netzwerke.
 
-Und hier für den Teil "Spieleprogrammierung mit KI":
+### Und hier für den Teil "Spieleprogrammierung mit KI":
 
 - [OpenGameArt](https://opengameart.org/) - Kostenlose Kunstressourcen für Spieleentwickler.
 - [Duck.ai](https://duck.ai) - KI-gestützte Tools und Anwendungen.
