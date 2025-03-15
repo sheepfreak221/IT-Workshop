@@ -3,13 +3,14 @@
 Überblick
 
 Dieses Repository enthält die Materialien für den Workshop zur Webentwicklung. Die Teilnehmer lernen die Grundlagen von HTML, CSS und JavaScript und erstellen ein eigenes kleines Spiel.
-Inhalt
+
+Inhalt:
 
     folien/ → Präsentationsfolien (.pdf)
     beispiele/ → Code-Beispiele für HTML, CSS und JavaScript
     projekt/ → Vorlage für das eigene Spiel
 
-Workshop-Ablauf
+Workshop-Ablauf:
 
 Teil 1:
 
