@@ -12,6 +12,8 @@
 - [FakeMail](https://www.fakemail.net) - Erhalte temporäre E-Mail-Adressen.
 - [F-Droid](https://f-droid.org/) - Open-Source-App-Store für Android.
 - [Tritt dem Fediverse bei](https://jointhefediverse.net) - Entdecke dezentrale soziale Netzwerke.
+- [Qwant](https://www.qwant.com) - Datenschutzfreundliche Suchmaschine.
+- [ProtonMail](https://proton.me/mail) - Sichere und verschlüsselte E-Mail-Dienste.
 
 ### Und hier für den Teil "Spieleprogrammierung mit KI":
 
