@@ -1,0 +1,26 @@
+sudo apt install pidgin autoconf automake libtool build-essential libglib2.0-dev libjson-glib-dev libpurple-dev 
+
+wget https://github.com/dequis/purple-facebook/releases/download/v0.9.6/purple-facebook-0.9.6.tar.gz
+
+tar xvf purple-facebook-*.tar.gz
+
+cd purple-facebook-0.9.6/
+
+./configure
+
+make
+
+sudo make install
+
+sudo apt install pidgin-otr
+
+sudo apt install tor
+
+sudo systemctl start tor
+
+In Pidgin: 
+
+Wähle Facebook als Protokoll
+Setze den Proxy-Typ auf SOCKS5.
+Setze die Proxy-Adresse auf 127.0.0.1 und den Port auf 9050.
+Aktiviere das OTR-Plugin
