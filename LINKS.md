@@ -1,19 +1,21 @@
-[Mimikama](https://www.mimikama.org/)
+# Nützliche Links
 
-[CORRECTIV](https://correctiv.org)
+Hier sind einige nützliche Ressourcen, die dir helfen können:
 
-[ARD-faktenfinder](https://www.tagesschau.de/faktenfinder)
+- [Mimikama](https://www.mimikama.org/) - Aufklärung über Falschmeldungen und Internetbetrug.
+- [CORRECTIV](https://correctiv.org) - Investigativer Journalismus und Faktencheck.
+- [ARD-faktenfinder](https://www.tagesschau.de/faktenfinder) - Überprüfung von Nachrichten und Informationen.
+- [Wie sicher ist mein Passwort?](https://checkdeinpasswort.de/) - Teste die Sicherheit deines Passworts.
+- [Have I Been Pwned?](https://haveibeenpwned.com/) - Überprüfe, ob deine Daten in einem Datenleck enthalten sind.
+- [Blacklight](https://themarkup.org/blacklight?) - Prüfe die Datensicherheit von Websites.
+- [Fake Name Generator](https://www.fakenamegenerator.com) - Erstelle zufällige Identitäten für Tests.
+- [FakeMail](https://www.fakemail.net) - Erhalte temporäre E-Mail-Adressen.
+- [F-Droid](https://f-droid.org/) - Open-Source-App-Store für Android.
+- [Tritt dem Fediverse bei](https://jointhefediverse.net) - Entdecke dezentrale soziale Netzwerke.
 
-[Wie sicher ist mein Passwort?](https://checkdeinpasswort.de/)
+## Weitere nützliche Ressourcen
 
-[';--have i been pwned? ](https://haveibeenpwned.com/)
-
-[Blacklight](https://themarkup.org/blacklight?)
-
-[Fake Name Generator](https://www.fakenamegenerator.com)
-
-[FakeMail](https://www.fakemail.net)
-
-[F-Droid](https://f-droid.org/)
-
-[Tritt dem Fediverse bei](https://jointhefediverse.net)
+- [OpenGameArt](https://opengameart.org/) - Kostenlose Kunstressourcen für Spieleentwickler.
+- [Duck.ai](https://duck.ai) - KI-gestützte Tools und Anwendungen.
+- [Scratch](https://scratch.mit.edu/) - Programmieren lernen mit einer visuellen Programmiersprache.
+- [SELFHTML](https://wiki.selfhtml.org/wiki/SELFHTML) - Umfassende Dokumentation zu HTML, CSS und Webentwicklung.
