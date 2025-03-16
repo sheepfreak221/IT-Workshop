@@ -19,7 +19,7 @@
 
 ### Und hier für den Teil "Spieleprogrammierung mit KI":
 
-- [OpenGameArt](https://opengameart.org/) - Kostenlose Kunstressourcen für Spieleentwickler.
+- [OpenGameArt](https://opengameart.org/) - Kostenlose Ressourcen für Spieleentwickler.
 - [Duck.ai](https://duck.ai) - KI-gestützte Tools und Anwendungen.
 - [Scratch](https://scratch.mit.edu/) - Programmieren lernen mit einer visuellen Programmiersprache.
 - [SELFHTML](https://wiki.selfhtml.org/wiki/SELFHTML) - Umfassende Dokumentation zu HTML, CSS und Webentwicklung.
