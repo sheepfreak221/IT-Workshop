@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de">
+	<head>
+	<script>
+
+function initialisieren()
+{
+	var form = document.getElementById("form");
+	var p = document.getElementById("eingabe");
+	var input = document.getElementById("spiel");
+	var versuche = document.getElementById("versuche");
+	var ausgabe = document.getElementById("ausgabe");
+	var zusatzausgabe = document.getElementById("zusatzausgabe");
+	
+	form.style.marginTop = 50 + "px";
+	form.style.marginLeft = 10 + "px";
+	form.style.border = 1 + "px solid #0b1f2a";
+	form.style.width = 350 + "px";
+	//form.style.backgroundColor = "#050f15";
+	
+	p.style.margin = 0 + "px";
+	p.style.padding = 20 + "px";
+	
+	input.style.marginRight = 10 + "px"; 
+	
+	versuche.style.marginLeft = 20 + "px";
+	versuche.style.marginBottom = 10 + "px";
+	
+	ausgabe.style.marginLeft = 20 + "px";
+	ausgabe.style.marginBottom = 10 + "px";
+	
+	zusatzausgabe.style.marginLeft = 20 + "px";
+	zusatzausgabe.style.marginBottom = 10 + "px";
+}
+
+function zufall()
+{
+	return Math.floor(1 + 100 * Math.random());	
+}
+
+var zufallszahl = zufall();
+var versuche = 0;
+var cheat = false;
+var gewonnen = false;
+var verloren = false;
+
+function spielen() 
+{	
+	versuche++; 
+	
+	var zahl = document.getElementById("spiel").value;
+	var versucheanzeige = document.getElementById("versuche");
+	var ausgabe = document.getElementById("ausgabe");
+	var zusatzausgabe = document.getElementById("zusatzausgabe");
+	
+	if ((gewonnen == true) || (verloren == true))
+	{
+		versucheanzeige.innerHTML = "Keine Versuche mehr!!!";
+	}
+	else
+	{
+		versucheanzeige.innerHTML = "Noch verfügbare Versuche: " + ((10 - versuche));
+	}
+	
+	if (gewonnen == true)
+	{
+		ausgabe.innerHTML = "Du hast bereits gewonnen :'D";
+	}
+	else
+	{
+		if (verloren == true)
+		{
+			ausgabe.innerHTML = "Leider hast du bereits verloren :-(";
+		}
+		else
+		{
+			if (versuche > 9)
+			{
+				verloren = true;
+				ausgabe.innerHTML = "Leider verloren :-(";
+				zusatzausgabe.innerHTML = "Gesucht war: " + zufallszahl;
+			}
+			else
+			{
+				if (zahl < zufallszahl)
+				{
+					ausgabe.innerHTML = "Sorry, aber die Zahl ist zu klein :-(";
+				}
+				if (zahl > zufallszahl)
+				{
+					ausgabe.innerHTML = "Sorry, aber die Zahl ist zu groß :-(";
+				}
+				if (zahl == "cheat")
+				{
+					if (cheat == true)
+					{
+						ausgabe.innerHTML = "Du darfst nur einmal cheaten *hihi*";
+					}
+					else
+					{
+						cheat = true;
+						ausgabe.innerHTML = "Cheater :-/";
+						zusatzausgabe.innerHTML = "Die gesuchte Zahl lautet: " + zufallszahl;
+					}
+				}
+				if (zahl == zufallszahl)
+				{
+					gewonnen = true;
+			
+					if (cheat == false)
+					{
+						ausgabe.innerHTML = "Hey Glückwunsch!";
+						zusatzausgabe.innerHTML = "Du hast die Zahl mit " + versuche +" Versuchen erraten :-)";
+					}
+					else
+					{
+						ausgabe.innerHTML = "Trotz Cheat: Glückwunsch!";
+						zusatzausgabe.innerHTML = "xD";
+					}	
+				}
+			}
+		}
+	}
+}	
+	</script>
+</head>
+	<body onload="initialisieren();">
+	
+			<div id="inhalt">
+			
+				<h1>Errate die Zahl</h1>
+				<p>Die Regeln von diesem Spiel sind sehr einfach!</p>
+				<p>Der Computer "denkt" sich eine Zahl zwischen 1 und 100 aus und du musst versuchen, diese Zahl zu erraten.</p>
+				<p>Damit's aber nicht zu einfach wird, hast du nur 10 Versuche ;-)</p>
+				
+				<div id="form" style="margin-bottom : 50px;">
+					
+					<form action="">
+						<p id="eingabe">
+						<input type="text" id="spiel" value="" />
+						<input type="button" value="Zahl raten" onclick="spielen();" /></p>
+					</form>
+					
+					<p id="ausgabe">Du hast noch nichts eingegeben ;-)</p>
+					<p id="zusatzausgabe">xD</p>
+					<p id="versuche">Noch verfügbare Versuche: 10</p>
+					
+				</div>
+			
+			</div>
+			
+		</div>
+		
+	</body>
+	
+</html>
