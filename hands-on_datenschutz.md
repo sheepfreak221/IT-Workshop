@@ -44,9 +44,8 @@
 
 ## 8 Datenschutz-Fails in Social Media simulieren  
 - Fake-Beiträge oder „harmlose“ Posts untersuchen  
-- Welche Infos kann man daraus ableiten? (Standort, Gewohnheiten, Freunde …)  
-- Beispiel: Ein Bild mit Schuhen → Metadaten → Überraschungseffekt („Wie ist das Wetter in Linz?“ 😆)  
-
+- Welche Infos kann man daraus ableiten? (Standort, Gewohnheiten, Freunde …)
+  
 ## 9 VPN & Tor vs. normales Surfen vergleichen  
 - Unterschiedliche IP-Adressen testen (WhatIsMyIP, DNS-Leaks, WebRTC-Leaks)  
 - Vergleich: Surfen mit und ohne VPN oder Tor  
