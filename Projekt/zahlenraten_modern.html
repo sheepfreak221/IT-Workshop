@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahlenraten</title>
+<style>
+    body {
+        background-color: #121212;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+    }
+    h1 {
+        color: #d48fff;
+        text-shadow: 0 0 10px rgba(212, 143, 255, 0.8);
+    }
+    #form {
+        background: linear-gradient(135deg, #2a0134, #3b0059);
+        padding: 20px;
+        border-radius: 10px;
+        width: 400px;
+        margin: 0 auto;
+        box-shadow: 0 0 15px rgba(212, 143, 255, 0.3);
+    }
+    input[type="text"] {
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        width: 60%;
+        background-color: #33004d;
+        color: #fff;
+        text-align: center;
+        box-shadow: 0 0 5px rgba(212, 143, 255, 0.5);
+    }
+    #rateButton {
+        padding: 12px 24px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background: linear-gradient(135deg, #8000ff, #cc66ff);
+        color: #fff;
+        margin-left: 10px;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 10px rgba(128, 0, 255, 0.5);
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        position: relative;
+        overflow: hidden;
+        text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+    }
+    #rateButton::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.2);
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+    #rateButton:hover {
+        background: linear-gradient(135deg, #a64dff, #e699ff);
+        box-shadow: 0 6px 15px rgba(128, 0, 255, 0.7);
+    }
+    #rateButton:hover::before {
+        opacity: 1;
+    }
+    p {
+        font-size: 18px;
+    }
+    #ausgabe, #zusatzausgabe, #versuche {
+        font-weight: bold;
+        margin-top: 10px;
+    }
+</style>
+</head>
+<body>
+    <div id="container">
+        <h1>Errate die Zahl</h1>
+        <p>Der Computer denkt sich eine Zahl zwischen 1 und 100 aus. Du hast 10 Versuche!</p>
+        <input type="text" id="spiel" />
+        <button id="rateButton">Zahl raten</button>
+        <p id="ausgabe">Du hast noch nichts eingegeben ;-)</p>
+        <p id="zusatzausgabe">xD</p>
+        <p id="versuche">Noch verfügbare Versuche: 10</p>
+    </div>
+    
+    <script>
+        let zufallszahl = Math.floor(Math.random() * 100) + 1;
+        let versuche = 0;
+        let cheat = false;
+        let gewonnen = false;
+        let verloren = false;
+        
+        document.getElementById("rateButton").addEventListener("click", spielen);
+        
+        function spielen() {
+            if (gewonnen || verloren) return;
+            
+            let eingabe = document.getElementById("spiel").value.trim();
+            let ausgabe = document.getElementById("ausgabe");
+            let zusatzausgabe = document.getElementById("zusatzausgabe");
+            let versucheanzeige = document.getElementById("versuche");
+            
+            versuche++;
+            versucheanzeige.textContent = `Noch verfügbare Versuche: ${10 - versuche}`;
+            
+            if (eingabe === "cheat") {
+                if (cheat) {
+                    ausgabe.textContent = "Du darfst nur einmal cheaten!";
+                } else {
+                    cheat = true;
+                    ausgabe.textContent = "Cheater!";
+                    zusatzausgabe.textContent = `Die gesuchte Zahl lautet: ${zufallszahl}`;
+                }
+                return;
+            }
+            
+            let zahl = parseInt(eingabe, 10);
+            if (isNaN(zahl) || zahl < 1 || zahl > 100) {
+                ausgabe.textContent = "Bitte gib eine Zahl zwischen 1 und 100 ein!";
+                return;
+            }
+            
+            if (zahl === zufallszahl) {
+                gewonnen = true;
+                ausgabe.textContent = cheat ? "Trotz Cheat: Glückwunsch!" : "Hey, Glückwunsch!";
+                zusatzausgabe.textContent = `Du hast die Zahl mit ${versuche} Versuchen erraten!`;
+                return;
+            }
+            
+            if (versuche >= 10) {
+                verloren = true;
+                ausgabe.textContent = "Leider verloren :-(";
+                zusatzausgabe.textContent = `Gesucht war: ${zufallszahl}`;
+                return;
+            }
+            
+            ausgabe.textContent = zahl < zufallszahl ? "Die Zahl ist zu klein!" : "Die Zahl ist zu groß!";
+        }
+    </script>
+</body>
+</html>
