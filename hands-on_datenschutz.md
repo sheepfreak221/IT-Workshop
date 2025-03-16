@@ -55,6 +55,25 @@
 - Passwort-Manager vs. wiederverwendete Passwörter erklären  
 - Quiz: „Wie lange dauert es, dein Passwort zu knacken?“  
 
-## 11 Bonus: Wer ist der beste Daten-Detektiv? 🕵️‍♀️  
+### 11. App-Tracker & Berechtigungen analysieren  
+
+1. **Webseite aufrufen:**  
+   👉 [Exodus Privacy](https://exodus-privacy.eu.org/en/)  
+   - App-Namen eingeben und Analyse laden.  
+
+2. **Tracker prüfen:**  
+   - Welche Tracker gibt es? (Analytics, Werbung, Identifikation)  
+   - Welche findest du bedenklich?  
+
+3. **Berechtigungen checken:**  
+   - Welche Rechte fordert die App? (Kamera, Kontakte, Standort, etc.)  
+   - Sind alle notwendig?  
+
+4. **Reflexion:**  
+   - Würdest du die App noch nutzen?  
+   - Gibt es Alternativen?  
+   - Wie kannst du deine Privatsphäre schützen?  
+
+## 12 Bonus: Wer ist der beste Daten-Detektiv? 🕵️‍♀️  
 - Challenge: In kleinen Gruppen bestimmte Infos über eine fiktive Person suchen  
 - Testen, wie viel man aus öffentlichen Quellen herausfinden kann  
