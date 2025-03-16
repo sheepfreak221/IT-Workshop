@@ -72,8 +72,37 @@
 4. **Reflexion:**  
    - Würdest du die App noch nutzen?  
    - Gibt es Alternativen?  
-   - Wie kannst du deine Privatsphäre schützen?  
+   - Wie kannst du deine Privatsphäre schützen?
 
-## 12 Bonus: Wer ist der beste Daten-Detektiv? 🕵️‍♀️  
+## 12. Negativbeispiel: Facebook Messenger mit Pidgin absichern (nicht mehr möglich)
+
+**Ziel:**  
+Verstehen, wie Unternehmen APIs einschränken, um externe Clients zu blockieren, und welche Auswirkungen das auf Datenschutz-Tools hat.
+
+**Hintergrund:**  
+Bis zum 26. Februar 2025 konnte man sich mit Pidgin und dem Plugin *purple-facebook* über das XMPP-Protokoll mit dem Facebook Messenger verbinden.  
+Zusätzlich konnte man mit *OTR (Off-the-Record Messaging)* und *Tor* für Anonymität und Ende-zu-Ende-Verschlüsselung sorgen.  
+
+**Problem:**  
+Facebook hat am 26. Februar 2025 die API abgeschaltet. Seitdem ist es nicht mehr möglich, sich über Drittanbieter-Clients mit dem Messenger zu verbinden.  
+Das bedeutet, dass Datenschutzfreundliche Lösungen wie Pidgin + OTR + Tor für Facebook nicht mehr funktionieren.  
+
+**Hands-on:**  
+1. **Analyse des Problems**  
+   - Versuche, dich mit Pidgin und *purple-facebook* anzumelden.  
+   - Beobachte die Fehlermeldung.  
+   - Überprüfe die API-Dokumentation von Meta, um zu sehen, welche Änderungen vorgenommen wurden.  
+
+2. **Diskussion: Konsequenzen für die Nutzer**  
+   - Warum sperrt Facebook externe Clients aus?  
+   - Welche Alternativen gibt es?  
+   - Welche Messenger respektieren Datenschutz und Interoperabilität?  
+
+**Erkenntnis:**  
+Big Tech schränkt offene Schnittstellen zunehmend ein, um Nutzer an ihre eigenen Apps zu binden und alternative Clients auszuschließen.  
+Das erschwert datenschutzfreundliche Lösungen und zwingt Nutzer dazu, unsichere oder überwachende Plattformen zu verwenden.  
+
+
+## 13 Bonus: Wer ist der beste Daten-Detektiv? 🕵️‍♀️  
 - Challenge: In kleinen Gruppen bestimmte Infos über eine fiktive Person suchen  
 - Testen, wie viel man aus öffentlichen Quellen herausfinden kann  
