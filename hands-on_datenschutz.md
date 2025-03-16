@@ -55,10 +55,10 @@
 - Passwort-Manager vs. wiederverwendete Passwörter erklären  
 - Quiz: „Wie lange dauert es, dein Passwort zu knacken?“  
 
-### 11. App-Tracker & Berechtigungen analysieren  
+## 11. App-Tracker & Berechtigungen analysieren  
 
 1. **Webseite aufrufen:**  
-   👉 [Exodus Privacy](https://exodus-privacy.eu.org/en/)  
+   [Exodus Privacy](https://exodus-privacy.eu.org/en/)  
    - App-Namen eingeben und Analyse laden.  
 
 2. **Tracker prüfen:**  
