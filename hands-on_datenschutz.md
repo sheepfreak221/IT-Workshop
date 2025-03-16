@@ -103,6 +103,6 @@ Big Tech schränkt offene Schnittstellen zunehmend ein, um Nutzer an ihre eigene
 Das erschwert datenschutzfreundliche Lösungen und zwingt Nutzer dazu, unsichere oder überwachende Plattformen zu verwenden.  
 
 
-## 13 Bonus: Wer ist der beste Daten-Detektiv? 🕵️‍♀️  
+## 13 Bonus: Wer ist der beste Daten-Detektiv? 
 - Challenge: In kleinen Gruppen bestimmte Infos über eine fiktive Person suchen  
 - Testen, wie viel man aus öffentlichen Quellen herausfinden kann  
