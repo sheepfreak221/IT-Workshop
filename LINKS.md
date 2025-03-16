@@ -14,7 +14,9 @@
 - [Tritt dem Fediverse bei](https://jointhefediverse.net) - Entdecke dezentrale soziale Netzwerke.
 - [Qwant](https://www.qwant.com) - Datenschutzfreundliche Suchmaschine.
 - [ProtonMail](https://proton.me/mail) - Sichere und verschlüsselte E-Mail-Dienste.
-- [Exodus Privacy](https://exodus-privacy.eu.org/de/) - Analyse von App-Trackern und Berechtigungen.  
+- [Exodus Privacy](https://exodus-privacy.eu.org/de/) - Analyse von App-Trackern und Berechtigungen.
+- [Google Zeitleiste](https://www.google.com/maps/timeline) - Zeigt deine Standortverläufe an (falls aktiviert).  
+
 
 
 ### Und hier für den Teil "Spieleprogrammierung mit KI":
