@@ -102,7 +102,21 @@ Das bedeutet, dass Datenschutzfreundliche Lösungen wie Pidgin + OTR + Tor für 
 Big Tech schränkt offene Schnittstellen zunehmend ein, um Nutzer an ihre eigenen Apps zu binden und alternative Clients auszuschließen.  
 Das erschwert datenschutzfreundliche Lösungen und zwingt Nutzer dazu, unsichere oder überwachende Plattformen zu verwenden.  
 
+## 13.) PDF-Passwort mit John the Ripper knacken
 
-## 13 Bonus: Wer ist der beste Daten-Detektiv? 
+### Ziel
+Ein Passwort für eine PDF-Datei knacken.
+
+### Durchführung
+1. **John the Ripper installieren**: sudo apt update && sudo apt install build-essential git libssl-dev zlib1g-dev && git clone https://github.com/openwall/john.git && cd john/src && ./configure && make
+2. **PDF-Hash extrahieren**: cd ../run && python3 ../tools/pdf2john.py deine_datei.pdf > hash.txt
+3. **Passwort mit Passwortliste knacken**: ./john --format=pdf --wordlist=~/Downloads/german.txt hash.txt
+4. **Ergebnisse überprüfen**: ./john --show hash.txt
+5. **Brute-Force-Angriff (optional)**: ./john --format=pdf --incremental hash.txt
+
+### Ergebnis
+Das Passwort wurde erfolgreich geknackt.
+
+## 14 Bonus: Wer ist der beste Daten-Detektiv? 
 - Challenge: In kleinen Gruppen bestimmte Infos über eine fiktive Person suchen  
 - Testen, wie viel man aus öffentlichen Quellen herausfinden kann  
