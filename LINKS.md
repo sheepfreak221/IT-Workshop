@@ -25,3 +25,4 @@
 - [Duck.ai](https://duck.ai) - KI-gestützte Tools und Anwendungen.
 - [Scratch](https://scratch.mit.edu/) - Programmieren lernen mit einer visuellen Programmiersprache.
 - [SELFHTML](https://wiki.selfhtml.org/wiki/SELFHTML) - Umfassende Dokumentation zu HTML, CSS und Webentwicklung.
+- [Full gamedev - Hikin' Moose - Scratch remake of "Acrobat" for Vic-20](https://peertube.tv/w/okxAsNFiKiPJiZZ5qWCGQm)
