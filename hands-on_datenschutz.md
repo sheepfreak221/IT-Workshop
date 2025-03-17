@@ -121,7 +121,7 @@ Das Passwort wurde erfolgreich geknackt.
 
 In diesem Hands-On werden wir versuchen, auf eine Reihe von gesperrten Internetadressen zuzugreifen. Die Teilnehmer sollen die folgenden Schritte durchführen:
 
-## Schritt 1: Zugriff auf gesperrte Internetadressen
+### Schritt 1: Zugriff auf gesperrte Internetadressen
 
 Versucht, die folgenden Internetadressen in eurem Browser aufzurufen:
 
