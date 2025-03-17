@@ -102,7 +102,7 @@ Das bedeutet, dass Datenschutzfreundliche Lösungen wie Pidgin + OTR + Tor für 
 Big Tech schränkt offene Schnittstellen zunehmend ein, um Nutzer an ihre eigenen Apps zu binden und alternative Clients auszuschließen.  
 Das erschwert datenschutzfreundliche Lösungen und zwingt Nutzer dazu, unsichere oder überwachende Plattformen zu verwenden.  
 
-## 13.) PDF-Passwort mit John the Ripper knacken
+## 13. PDF-Passwort mit John the Ripper knacken
 
 ### Ziel
 Ein Passwort für eine PDF-Datei knacken.
