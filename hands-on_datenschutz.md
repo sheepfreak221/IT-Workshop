@@ -117,6 +117,46 @@ Ein Passwort für eine PDF-Datei knacken.
 ### Ergebnis
 Das Passwort wurde erfolgreich geknackt.
 
+## 14. Zugriff auf gesperrte Internetadressen
+
+In diesem Hands-On werden wir versuchen, auf eine Reihe von gesperrten Internetadressen zuzugreifen. Die Teilnehmer sollen die folgenden Schritte durchführen:
+
+## Schritt 1: Zugriff auf gesperrte Internetadressen
+
+Versucht, die folgenden Internetadressen in eurem Browser aufzurufen:
+
+- [kinox.to](http://kinox.to)
+- [burningseries.to](http://burningseries.to)
+- [de.rt.com](http://de.rt.com)
+- [serienstream.to](http://serienstream.to)
+
+Notiert euch, ob der Zugriff erfolgreich war oder ob eine Fehlermeldung angezeigt wird.
+
+### Schritt 2: Zugriff über Tor
+
+Jetzt werden wir versuchen, die gleichen Adressen über das Tor-Netzwerk aufzurufen. 
+
+1. Ladet den [Tor Browser](https://www.torproject.org/download/) herunter und installiert ihn.
+2. Öffnet den Tor Browser und gebt die oben genannten Adressen ein.
+3. Notiert euch, ob der Zugriff erfolgreich war.
+
+### Schritt 3: Zugriff über einen anderen DNS-Server
+
+In diesem Schritt werden wir einen alternativen DNS-Server verwenden, um auf die gesperrten Adressen zuzugreifen. Wir werden Cloudflare's DNS-Server verwenden.
+
+1. Ändert die DNS-Einstellungen eures Geräts auf die folgenden Werte:
+   - Primärer DNS: `1.1.1.1`
+   - Sekundärer DNS: `1.0.0.1`
+   
+   (Die genauen Schritte zum Ändern der DNS-Einstellungen hängen von eurem Betriebssystem ab. Bitte sucht nach Anleitungen für euer spezifisches System.)
+
+2. Versucht erneut, die oben genannten Adressen in eurem Browser aufzurufen.
+3. Notiert euch, ob der Zugriff erfolgreich war.
+
+### Abschlussdiskussion
+
+Diskutiert in der Gruppe, welche Methoden erfolgreich waren und welche nicht. Welche Herausforderungen habt ihr beim Zugriff auf die gesperrten Seiten erlebt?
+
 ## 14 Bonus: Wer ist der beste Daten-Detektiv? 
 - Challenge: In kleinen Gruppen bestimmte Infos über eine fiktive Person suchen  
 - Testen, wie viel man aus öffentlichen Quellen herausfinden kann  
