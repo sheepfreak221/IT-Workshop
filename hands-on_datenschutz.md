@@ -172,7 +172,7 @@ Die ORF-Sendung *Wien heute* spricht über den Selbstversuch der Satireplattform
    - Welche Mechanismen führen dazu, dass extreme Inhalte verstärkt werden?  
 
 2. **Echokammer & Filterblase:**  
-   - Warum ist es problematisch, wenn Nutzer*innen nur mehr einseitige Inhalte sehen?  
+   - Warum ist es problematisch, wenn Nutzer nur mehr einseitige Inhalte sehen?  
    - Welche Folgen kann das für die Gesellschaft haben?  
 
 3. **Eigene Erfahrungen:**  
@@ -180,7 +180,7 @@ Die ORF-Sendung *Wien heute* spricht über den Selbstversuch der Satireplattform
    - Welche Strategien gibt es, um aus einer Filterblase auszubrechen?  
 
 ### Fazit  
-TikTok optimiert Inhalte für maximale Watchtime – mit potenziell gefährlichen Konsequenzen. Diskutiert, wie wir als Nutzer*innen bewusster mit dem Algorithmus umgehen können.  
+TikTok optimiert Inhalte für maximale Watchtime – mit potenziell gefährlichen Konsequenzen. Diskutiert, wie wir als Nutzer bewusster mit dem Algorithmus umgehen können.  
 
 ## 16 Bonus: Wer ist der beste Daten-Detektiv? 
 - Challenge: In kleinen Gruppen bestimmte Infos über eine fiktive Person suchen  
