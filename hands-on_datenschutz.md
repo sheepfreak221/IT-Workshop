@@ -157,6 +157,31 @@ In diesem Schritt werden wir einen alternativen DNS-Server verwenden, um auf die
 
 Diskutiert in der Gruppe, welche Methoden erfolgreich waren und welche nicht. Welche Herausforderungen habt ihr beim Zugriff auf die gesperrten Seiten erlebt?
 
-## 14 Bonus: Wer ist der beste Daten-Detektiv? 
+## 15 Movie-Time!!! Ingrid Brodnig über TikTok  
+
+### Wer ist Ingrid Brodnig?  
+Ingrid Brodnig ist eine österreichische Journalistin und Publizistin. Sie verfasst eine regelmäßige Kolumne für die Tageszeitung *Der Standard* und setzt sich intensiv mit digitalen Themen auseinander – insbesondere mit Fake News, Algorithmen und Meinungsbildung im Netz.  
+
+### Video: "Wien heute" über TikTok-Radikalisierung  
+Die ORF-Sendung *Wien heute* spricht über den Selbstversuch der Satireplattform *Die Tagespresse*:  
+**"Selbstversuch: So radikalisiert TikTok österreichische Teenager"**.  
+
+#### Hands-on: Diskutiert folgende Fragen  
+1. **Algorithmus und Radikalisierung:**  
+   - Wie beeinflusst der TikTok-Algorithmus die Meinungsbildung?  
+   - Welche Mechanismen führen dazu, dass extreme Inhalte verstärkt werden?  
+
+2. **Echokammer & Filterblase:**  
+   - Warum ist es problematisch, wenn Nutzer*innen nur mehr einseitige Inhalte sehen?  
+   - Welche Folgen kann das für die Gesellschaft haben?  
+
+3. **Eigene Erfahrungen:**  
+   - Habt ihr selbst schon erlebt, dass euch TikTok sehr ähnliche oder immer extremere Inhalte empfohlen hat?  
+   - Welche Strategien gibt es, um aus einer Filterblase auszubrechen?  
+
+### Fazit  
+TikTok optimiert Inhalte für maximale Watchtime – mit potenziell gefährlichen Konsequenzen. Diskutiert, wie wir als Nutzer*innen bewusster mit dem Algorithmus umgehen können.  
+
+## 16 Bonus: Wer ist der beste Daten-Detektiv? 
 - Challenge: In kleinen Gruppen bestimmte Infos über eine fiktive Person suchen  
 - Testen, wie viel man aus öffentlichen Quellen herausfinden kann  
