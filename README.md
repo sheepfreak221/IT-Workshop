@@ -1,14 +1,15 @@
 # IT-Workshop: Spieleprogrammierung und Open Source/Datenschutz
 
-In diesem Repository findest du alle Materialien für unseren Workshop, in dem du ein kleines Spiel programmierst und mehr über Open Source sowie Datenschutz lernst.
+In diesem Repository findest du alle Materialien für unseren Workshop, in dem du ein kleines Spiel (mit Hilfe von Duck.ai) programmierst und mehr über Open Source sowie Datenschutz lernst.
 
 ## Inhalt:
 
-- **folien/** → Präsentationsfolien (.pdf)
-- **beispiele/** → Einfache Code-Beispiele für HTML, CSS und JavaScript
-- **projekt/** → Vorlage für dein Mini-Game
+- **Folien/** → Präsentationsfolien (.pdf)
+- **Ressourcen/** → Zusätzliche Materialien (für z.B. Hands-on) 
+- **Beispiele/** → Einfache Code-Beispiele für HTML, CSS und JavaScript
+- **projekt/** → Hier kommen dann eure Mini-Games rein
 - **links.md** → Nützliche Links und Ressourcen
-- **artikel/** → Relevante Zeitungsartikel zu Open Source und Datenschutz
+- **Artikel/** → Relevante Zeitungsartikel zu Open Source und Datenschutz
 
 ## Workshop-Ablauf:
 
@@ -28,6 +29,7 @@ In diesem Repository findest du alle Materialien für unseren Workshop, in dem d
 
 - Ein Browser (z. B. Firefox)
 - Ein Texteditor (z. B. Notepad++)
+- Also ich hätte ja gerne Linux-Rechner... 
 
 ## Lizenz
 

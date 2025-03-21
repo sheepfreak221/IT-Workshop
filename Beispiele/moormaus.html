@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moormaus</title>
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+            background-color: #87CEEB; /* Himmelblau */
+            font-family: Arial, sans-serif; /* Schriftart */
+        }
+
+        #punktestand, #timer, #nachladen {
+            position: absolute;
+            color: #003366; /* Dunkelblau für den Text */
+            font-size: 24px; /* Schriftgröße */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Schatten für bessere Lesbarkeit */
+        }
+
+        #punktestand {
+            top: 20px; /* Abstand vom oberen Rand */
+            left: 20px; /* Abstand vom linken Rand */
+        }
+
+        #timer {
+            top: 20px; /* Abstand vom oberen Rand */
+            right: 20px; /* Abstand vom rechten Rand */
+        }
+
+        #nachladen {
+            bottom: 20px; /* Abstand vom unteren Rand */
+            left: 20px; /* Abstand vom linken Rand */
+        }
+
+        #start-button {
+            position: absolute;
+            bottom: 20px; /* Abstand vom unteren Rand */
+            right: 20px; /* Abstand vom rechten Rand */
+            padding: 10px 20px; /* Innenabstand */
+            font-size: 18px; /* Schriftgröße */
+            background-color: #FF6347; /* Tomatenrot */
+            color: white; /* Textfarbe */
+            border: none; /* Kein Rahmen */
+            border-radius: 5px; /* Abgerundete Ecken */
+            cursor: pointer; /* Zeiger-Cursor */
+            transition: background-color 0.3s; /* Übergangseffekt */
+        }
+
+        #start-button:hover {
+            background-color: #FF4500; /* Dunkleres Rot beim Hover */
+        }
+
+        .huhn {
+            position: absolute;
+            user-select: none; /* Verhindert die Auswahl von Hühnern */
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="punktestand">Punkte: 0</h1>
+    <h2 id="timer">Zeit: 90</h2>
+    <h2 id="nachladen">Schüsse übrig: 5</h2>
+    <button id="start-button">Spiel Starten</button>
+    <audio id="background-music" loop autoplay>
+        <source src="background.ogg" type="audio/ogg">
+    </audio>
+    <script>
+        // Lautstärke direkt nach dem Laden des Audio-Elements festlegen
+        const audioPlayer = document.getElementById('background-music');
+        audioPlayer.volume = 0.5; // Setzt die Lautstärke auf 50%
+    </script>
+    <audio id="shot-sound">
+        <source src="shot.ogg" type="audio/ogg">
+    </audio>
+    <audio id="reload-sound">
+        <source src="reload.ogg" type="audio/ogg">
+    </audio>
+
+    <script>
+let punkte = 0;
+let zeit = 90;
+let schuesseUebrig = 5;
+const geschwindigkeiten = [1, 3, 5]; // Geschwindigkeiten für kleine, mittlere und große Hühner
+const anzahlHühner = 1; // Anzahl der Hühner, die pro Sekunde erscheinen sollen
+let spielAktiv = false;
+const backgroundMusic = document.getElementById('background-music');
+const shotSound = document.getElementById('shot-sound');
+const reloadSound = document.getElementById('reload-sound');
+
+function erstelleHuhn() {
+    if (!spielAktiv) return;
+
+    const huhn = document.createElement('img');
+    huhn.src = 'maus.gif'; // Pfad zum Huhn-GIF
+    huhn.className = 'huhn';
+    huhn.style.top = Math.random() * window.innerHeight + 'px';
+    huhn.style.left = '-50px'; // Startposition außerhalb des Bildschirms
+
+    // Verhindert die Auswahl des Huhns
+    huhn.style.userSelect = 'none'; // CSS-Eigenschaft hinzufügen
+
+    // Zufällige Größe und Geschwindigkeit
+    const ebene = Math.floor(Math.random() * 3); // 0: klein, 1: mittel, 2: groß
+    huhn.style.width = (ebene + 1) * 40 + 'px'; // Größe basierend auf der Ebene (größere Hühner sind langsamer)
+
+    // Punktevergabe basierend auf der Ebene
+    if (ebene === 0) {
+        huhn.dataset.punkte = 25; // Vordere Hühner
+    } else if (ebene === 1) {
+        huhn.dataset.punkte = 10; // Mittlere Hühner
+    } else {
+        huhn.dataset.punkte = 5; // Hintere Hühner
+    }
+    huhn.dataset.geschwindigkeit = geschwindigkeiten[ebene];
+
+    animiereHuhn(huhn, ebene);
+    document.body.appendChild(huhn);
+}
+
+// Event Listener für das Klicken auf den Bildschirm
+document.addEventListener('click', (event) => {
+    // Überprüfen, ob der Klick auf den Start-Button war
+    if (event.target.id === 'start-button') {
+        return; // Nichts tun, wenn der Start-Button geklickt wurde
+    }
+
+    if (schuesseUebrig > 0) {
+        // Munition verringern
+        schuesseUebrig--; 
+        document.getElementById('nachladen').innerText = 'Schüsse übrig: ' + schuesseUebrig;
+
+        // Überprüfen, ob ein Huhn getroffen wurde
+        const huhn = event.target.closest('.huhn');
+        if (huhn) {
+            // Punktevergabe, wenn ein Huhn getroffen wird
+            punkte += parseInt(huhn.dataset.punkte);
+            document.getElementById('punktestand').innerText = 'Punkte: ' + punkte;
+            huhn.style.transition = 'top 0.5s';
+            huhn.style.top = window.innerHeight + 'px'; // Huhn fällt nach unten
+            setTimeout(() => {
+                document.body.removeChild(huhn);
+            }, 500);
+            shotSound.play(); // Schussgeräusch abspielen
+        } else {
+            // Optional: Hier kannst du eine Aktion hinzufügen, wenn kein Huhn getroffen wurde
+            console.log("Kein Huhn getroffen.");
+            shotSound.play(); // Schussgeräusch abspielen
+        }
+    }
+});
+
+function animiereHuhn(huhn, ebene) {
+    const geschwindigkeit = parseInt(huhn.dataset.geschwindigkeit);
+    let position = parseInt(huhn.style.left);
+
+    function bewegeHuhn() {
+        position += geschwindigkeit;
+        huhn.style.left = position + 'px';
+
+        if (position < window.innerWidth) {
+            requestAnimationFrame(bewegeHuhn);
+        } else {
+            document.body.removeChild(huhn); // Huhn entfernen, wenn es den Bildschirm verlässt
+        }
+    }
+    requestAnimationFrame(bewegeHuhn);
+}
+
+function nachladen() {
+    if (schuesseUebrig === 0) {
+        schuesseUebrig = 5;
+        document.getElementById('nachladen').innerText = 'Schüsse übrig: ' + schuesseUebrig;
+        reloadSound.play(); // Nachladegeräusch abspielen
+    }
+}
+
+function speichereBestenPunktestand() {
+    const besterPunktestand = getCookie("besterPunktestand") || 0;
+    if (punkte > besterPunktestand) {
+        document.cookie = "besterPunktestand=" + punkte + "; path=/";
+        alert("Neuer bester Punktestand: " + punkte);
+    }
+}
+
+function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+}
+
+function starteSpiel() {
+    // Werte zurücksetzen
+    punkte = 0;
+    zeit = 90;
+    schuesseUebrig = 5;
+    document.getElementById('punktestand').innerText = 'Punkte: ' + punkte;
+    document.getElementById('timer').innerText = 'Zeit: ' + zeit;
+    document.getElementById('nachladen').innerText = 'Schüsse übrig: ' + schuesseUebrig;
+    document.getElementById('start-button').style.display = 'none'; // Button ausblenden
+
+    // Cursor auf Fadenkreuz setzen
+    document.body.style.cursor = "url('fadenkreuz.png'), auto";
+
+    spielAktiv = true; // Spiel aktivieren
+    const interval = setInterval(() => {
+        for (let i = 0; i < anzahlHühner; i++) {
+            setTimeout(erstelleHuhn, i * 1000); // Hühner nacheinander erscheinen lassen
+        }
+    }, 1000); // Hühner erscheinen jede Sekunde
+
+    const timerInterval = setInterval(() => {
+        zeit--;
+        document.getElementById('timer').innerText = 'Zeit: ' + zeit;
+        if (zeit <= 0) {
+            clearInterval(interval);
+            clearInterval(timerInterval);
+            spielAktiv = false;
+            backgroundMusic.pause(); // Musik anhalten, wenn das Spiel endet
+            backgroundMusic.currentTime = 0; // Musik zurücksetzen
+            speichereBestenPunktestand(); // Besten Punktestand speichern
+            alert('Zeit abgelaufen! Deine Punkte: ' + punkte);
+            // Alle Hühner entfernen, wenn die Zeit abgelaufen ist
+            const huehner = document.querySelectorAll('.huhn');
+            huehner.forEach(huhn => {
+                document.body.removeChild(huhn);
+            });
+            document.getElementById('start-button').style.display = 'block'; // Button wieder einblenden
+
+            // Cursor zurücksetzen
+            document.body.style.cursor = "auto"; // Standard-Cursor zurücksetzen
+        }
+    }, 1000);
+}
+
+
+
+// Event Listener für das Nachladen mit der rechten Maustaste
+document.addEventListener('contextmenu', (event) => {
+    event.preventDefault(); // Verhindert das Kontextmenü
+    nachladen();
+});
+
+// Event Listener für den Start-Button
+document.getElementById('start-button').addEventListener('click', () => {
+    backgroundMusic.play(); // Hintergrundmusik starten
+    starteSpiel(); // Spiel starten
+});
+
+
+
+    </script>
+</body>
+</html>
+

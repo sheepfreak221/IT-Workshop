@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fang die Maus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #222;
+            color: white;
+            text-align: center;
+        }
+        #spielfeld {
+            margin: 10px auto;
+            height: 500px;
+            width: 500px;
+            background-color: #050f15;
+            border: 1px solid #0b1f2a;
+            position: relative;
+            cursor: crosshair;
+        }
+        #maus {
+            position: absolute;
+            width: 136px;
+            height: 116px;
+            background: url('./maus.gif') no-repeat center/contain;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fang die Maus</h1>
+    <p>In diesem kleinen Spiel musst du nichts weiter tun, als diese kleine suesse Maus fangen. Aber Vorsicht, die Maus wird immer schneller ;)</p>
+    <p id="level">Level: 1</p>
+    <div id="spielfeld">
+        <div id="maus" onclick="punkte();"></div>
+    </div>
+    <p id="punkteAusgabe">Punkte: 0</p>
+
+    <script>
+        function levellaenge() {
+            return Math.floor(7 + 15 * Math.random());
+        }
+
+        let maus = document.getElementById("maus");
+        let punkteAusgabe = document.getElementById("punkteAusgabe");
+        let levelAnzeige = document.getElementById("level");
+        let mausGeschwindigkeit = 1000;
+        let Punkte = 0;
+        let Level = 1;
+        let klicke = 0;
+        let laevellenge = levellaenge();
+
+        function mausBewegen() {
+            let maxX = 500 - 116;
+            let maxY = 500 - 136;
+            
+            maus.style.top = Math.floor(Math.random() * maxX) + "px";
+            maus.style.left = Math.floor(Math.random() * maxY) + "px";
+            setTimeout(mausBewegen, mausGeschwindigkeit);
+        }
+
+        function punkte() {
+            klicke++;
+            if (klicke == laevellenge) {
+                klicke = 0;
+                Level++;
+                mausGeschwindigkeit /= (Level / 2);
+                laevellenge = levellaenge();
+            } else {
+                Punkte += 10 * Level;
+            }
+            punkteAusgabe.textContent = "Punkte: " + Punkte;
+            levelAnzeige.textContent = "Level: " + Level;
+        }
+
+        mausBewegen();
+    </script>
+</body>
+</html>
