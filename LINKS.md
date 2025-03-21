@@ -2,6 +2,7 @@
 
 ### Hier sind einige nützliche Ressourcen für den Teil "Open Source und Datenschutz":
 
+- [APA-Faktencheck](https://apa.at/service/faktencheck-2/#aktuell) - Die Faktenchecks ermöglichen es Lesern, sich auch bei komplexen und umstrittenen Themen eine Meinung zu bilden.
 - [Mimikama](https://www.mimikama.org/) - Aufklärung über Falschmeldungen und Internetbetrug.
 - [CORRECTIV](https://correctiv.org) - Investigativer Journalismus und Faktencheck.
 - [ARD-faktenfinder](https://www.tagesschau.de/faktenfinder) - Überprüfung von Nachrichten und Informationen.
