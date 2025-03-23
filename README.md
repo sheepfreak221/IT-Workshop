@@ -7,7 +7,7 @@ In diesem Repository findest du alle Materialien für unseren Workshop, in dem d
 - **Folien/** → Präsentationsfolien (.pdf)
 - **Ressourcen/** → Zusätzliche Materialien (für z.B. Hands-on) 
 - **Beispiele/** → Einfache Code-Beispiele für HTML, CSS und JavaScript
-- **Tutorials/** → Schritt-für-Schritt-Anleitungen zu Hands-on, wenn ihr es selber probieren wollt (Bei Problemen fragt bitte Duck.ai)
+- **Tutorials/** → Schritt-für-Schritt-Anleitungen zu Hands-on
 - **projekt/** → Hier kommen dann eure Mini-Games rein
 - **links.md** → Nützliche Links und Ressourcen
 - **Artikel/** → Relevante Zeitungsartikel zu Open Source und Datenschutz
