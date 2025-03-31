@@ -9,6 +9,19 @@ Dieses Skript startet eine QEMU-VM von einem USB-Stick oder einer anderen extern
 - Das Skript muss mit Administratorrechten ausgeführt werden
 - Die VM ist eine `amd64` (x86_64)-VM und läuft nicht auf ARM-basierten Macs (Apple Silicon)
 
+## WHPX in Windows Home-Versionen
+Windows Home-Versionen unterstützen **WHPX** nicht. Falls du eine Windows Home-Version verwendest, kannst du stattdessen Software-Emulation wie `-accel tcg` verwenden, was jedoch deutlich langsamer ist. Wenn du auf eine der folgenden unterstützten Versionen von Windows umsteigst, kannst du die Hardwarebeschleunigung WHPX nutzen.
+
+### Unterstützte Windows-Versionen für WHPX:
+- **Windows 10 Pro** (ab Version 1809)
+- **Windows 10 Enterprise** (ab Version 1809)
+- **Windows 10 Education** (ab Version 1809)
+- **Windows 11 Pro**
+- **Windows 11 Enterprise**
+- **Windows 11 Education**
+
+Falls du eine der unterstützten Versionen verwendest, kannst du WHPX aktivieren, wie unten beschrieben.
+
 ## Anpassungen für Systeme ohne WHPX
 Falls WHPX nicht verfügbar ist oder nicht aktiviert werden kann, muss die Option `-accel whpx` entfernt oder durch eine andere Beschleunigungsmethode ersetzt werden (z. B. `-accel hax` oder `-accel tcg` für Software-Emulation).
 
