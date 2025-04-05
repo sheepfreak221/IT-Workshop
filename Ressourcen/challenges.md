@@ -11,6 +11,7 @@
 
 ## 4. VeraCrypt-Verstecken Challenge
 **Ziel:** Wer zuerst einen verschlüsselten VeraCrypt-Container in einem Video versteckt, gewinnt! 
+
 ---
 
 ### Belohnung:
