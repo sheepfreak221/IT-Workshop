@@ -98,7 +98,7 @@ Facebook-Chat in Pidgin via OTR – was geht, was nicht?
 
 ## Motivation
 
-Dieser Workshop wurde aus Frust über langweilige IT-Einheiten geboren – und aus der Liebe zu Open Source & echter Medienbildung.  
+Dieser Workshop wurde aus Frust über langweilige Informatik-Einheiten geboren – und aus der Liebe zu Open Source & echter Medienbildung.  
 Er soll **nicht nur warnen**, sondern **ermächtigen**: zum Selberdenken, Selbermachen, Selberschützen.
 
 ---
