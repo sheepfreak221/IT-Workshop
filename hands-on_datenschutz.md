@@ -185,3 +185,85 @@ TikTok optimiert Inhalte für maximale Watchtime – mit potenziell gefährliche
 ## 16 Bonus: Wer ist der beste Daten-Detektiv? 
 - Challenge: In kleinen Gruppen bestimmte Infos über eine fiktive Person suchen  
 - Testen, wie viel man aus öffentlichen Quellen herausfinden kann  
+
+# Hands-on: Bilder strippen
+
+In diesem Hands-on lernen wir, wie man Metadaten (Exif-Daten) aus Bildern ausliest und versteht, welche Informationen darin versteckt sein können. Besonders spannend sind GPS-Tags, die wir umrechnen und auf OpenStreetMap anzeigen lassen.
+
+## Voraussetzungen
+- Ein Debian-basiertes System (z. B. Ubuntu oder Debian selbst)
+- `exiftool` installiert (falls noch nicht installiert, mit `sudo apt install libimage-exiftool-perl` nachholen)
+- Beispielbilder mit Exif-Daten (werden bereitgestellt)
+
+## Einführung
+Digitalkameras und Smartphones speichern beim Fotografieren viele Informationen mit dem Bild, darunter:
+- Kameramodell
+- Aufnahmedatum und -zeit
+- GPS-Koordinaten (falls aktiviert)
+- Belichtungseinstellungen
+- Software-Version
+
+Diese Informationen sind hilfreich, können aber auch Datenschutzrisiken bergen.
+
+## Teil 1: Exif-Daten auslesen
+### 1.1 Metadaten eines Bildes anzeigen
+Öffne ein Terminal und führe folgenden Befehl aus:
+```sh
+exiftool beispielbild.jpg
+```
+Dieser Befehl zeigt alle gespeicherten Metadaten des Bildes an.
+
+### 1.2 Nur GPS-Informationen anzeigen
+```sh
+exiftool -gps* beispielbild.jpg
+```
+Falls GPS-Daten vorhanden sind, werden sie angezeigt, z. B.:
+```
+GPS Latitude                    : 48 deg 12' 34.56" N
+GPS Longitude                   : 16 deg 22' 10.78" E
+```
+
+## Teil 2: GPS-Daten umrechnen und auf OpenStreetMap anzeigen
+Falls ihr GPS-Koordinaten gefunden habt, müsst ihr sie in Dezimalgrad umwandeln.
+
+### 2.1 Umrechnung in Dezimalgrad
+Die Umrechnung erfolgt nach folgender Formel:
+```
+Grad + (Minuten / 60) + (Sekunden / 3600)
+```
+Beispiel:
+```
+48° 12' 34.56" N = 48 + (12 / 60) + (34.56 / 3600) = 48.2096°
+16° 22' 10.78" E = 16 + (22 / 60) + (10.78 / 3600) = 16.3697°
+```
+Falls die Koordinate ein `S` oder `W` enthält, wird das Vorzeichen negativ:
+- `N` → positiv
+- `S` → negativ
+- `E` → positiv
+- `W` → negativ
+
+### 2.2 OpenStreetMap aufrufen
+Nachdem ihr die Dezimalwerte berechnet habt, könnt ihr die Koordinaten in OpenStreetMap aufrufen:
+
+Öffnet einen Browser und gebt folgende URL ein:
+```
+https://www.openstreetmap.org/?mlat=48.2096&mlon=16.3697&zoom=15
+```
+Ersetzt die Werte entsprechend euren berechneten Koordinaten.
+
+## Teil 3: Metadaten entfernen (Strippen)
+Um Metadaten aus einem Bild zu entfernen, benutzt folgenden Befehl:
+```sh
+exiftool -all= -overwrite_original beispielbild.jpg
+```
+Dadurch werden sämtliche Metadaten gelöscht.
+
+## Fazit
+In diesem Hands-on habt ihr gelernt:
+✅ Wie man Exif-Daten aus Bildern ausliest
+✅ Wie man GPS-Daten in OpenStreetMap visualisiert
+✅ Wie man Metadaten sicher entfernt
+
+Jetzt seid ihr bereit, eure eigenen Bilder zu checken und zu entscheiden, welche Daten ihr behalten wollt! 🚀
+
+
