@@ -65,27 +65,29 @@ In der VM befinden sich folgende Programme – alle Open Source, datenschutzfreu
 Die VM basiert auf **Debian (Bookworm)** und verwendet die Desktopumgebung **LXQt** für eine einfache, ressourcenschonende Benutzeroberfläche.
 Sie ist eine **amd64-VM**, die auf QEMU basiert und schnell auf fast jedem modernen Rechner laufen sollte. Um die VM auszuführen, stelle sicher, dass **Hyper-V** sowie **Intel VT-x** (für Intel-Prozessoren) oder **AMD-V** (für AMD-Prozessoren) auf deinem Computer aktiviert sind.
 
+### VM Screenshot
+
 ![https://example.com/bild.jpg](https://raw.githubusercontent.com/sheepfreak221/IT-Workshop/refs/heads/main/Ressourcen/screenshot_vm.png)
 
 ## Beispiel-Hands-on:
 
-**EXIF & Geodaten:**  
-Fotos mit GPS-Koordinaten analysieren und Orte auf OpenStreetMap finden.
+**EXIF & Geodaten:** 
+Fotos von öffentlichen Flickr-Profilen analysieren – enthalten sie GPS-Koordinaten? Falls ja: Adresse via OpenStreetMap herausfinden. Ein realistisches Szenario, das zeigt, wie viel private Info in Bildern steckt.
 
-**Passwörter knacken:**  
-Eine verschlüsselte PDF mit John the Ripper analysieren und sehen, warum Wörterbuchpasswörter gefährlich sind.
+**Passwörter knacken:** 
+Theorie trifft Praxis – Passwortcheckerseiten behaupten viel, aber wie sicher sind "sichere" Passwörter wirklich? Test mit einer verschlüsselten PDF und John the Ripper.
 
-**Sichere Passwortverwaltung:**  
-Einführung in KeePassXC und warum man Passwörter nicht im Kopf behalten sollte.
+**Sichere Passwortverwaltung:** 
+Einführung in KeePassXC – warum es gefährlich ist, sich Passwörter zu merken, und wie man mit Passwort-Datenbanken sicherer lebt.
 
-**Tracker erkennen und blocken:**  
-Mit uBlock Origin Tracker identifizieren und blockieren – sicher surfen leicht gemacht.
+**Tracker erkennen und blocken:** 
+uBlock Origin in Aktion – Tracker identifizieren, blocken, Seiten sauber halten. Macht Webseiten schneller, schöner und privater.
 
-**Verschlüsselte Container mit VeraCrypt:**  
-Partitionen verschlüsseln & versteckte Volumes verstehen.
+**Verschlüsselte Container mit VeraCrypt:** 
+Einen versteckten Container erstellen und darin eine KeePass-Datenbank ablegen. So funktioniert digitale Tarnung.
 
-**Messenger absichern:**  
-Facebook-Chat in Pidgin via OTR – was geht, was nicht?
+**Messenger absichern:** 
+Facebook-Chat in Pidgin mit OTR verschlüsseln. Was funktioniert? Was nicht? Und warum?
 
 ---
 
