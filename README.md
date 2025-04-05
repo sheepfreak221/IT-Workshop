@@ -115,7 +115,7 @@ Forks & Pull Requests sind absolut willkommen 💜
 
 ## Autor
 
-[Sheepfreak221](https://github.com/sheepfreak221) – Nerd, Veganer, Security-Enthusiast, Katzenliebhaber, KI-Bastler & Linux forever
+[sheepfreak221](https://github.com/sheepfreak221) – Nerd, Veganer, Katzenliebhaber, FOSS-Enthusiast, Security-Junkie, KI-Bastler, Sci-Fi-Liebhaber, Metalhead, Horror Geek, AI Artist & Linux forever
 
 ---
 
