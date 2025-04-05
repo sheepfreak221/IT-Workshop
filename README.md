@@ -65,7 +65,7 @@ In der VM befinden sich folgende Programme – alle Open Source, datenschutzfreu
 Die VM basiert auf **Debian (Bookworm)** und verwendet die Desktopumgebung **LXQt** für eine einfache, ressourcenschonende Benutzeroberfläche.
 Sie ist eine **amd64-VM**, die auf QEMU basiert und schnell auf fast jedem modernen Rechner laufen sollte. Um die VM auszuführen, stelle sicher, dass **Hyper-V** sowie **Intel VT-x** (für Intel-Prozessoren) oder **AMD-V** (für AMD-Prozessoren) auf deinem Computer aktiviert sind.
 
-[https://example.com/bild.jpg](https://raw.githubusercontent.com/sheepfreak221/IT-Workshop/refs/heads/main/Ressourcen/screenshot_vm.png)
+![https://example.com/bild.jpg](https://raw.githubusercontent.com/sheepfreak221/IT-Workshop/refs/heads/main/Ressourcen/screenshot_vm.png)
 
 ## Beispiel-Hands-on:
 
