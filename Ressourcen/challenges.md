@@ -1,7 +1,9 @@
 # 4 Missionen, 4 Packungen Schnitten, null Unterstützung – Let's hack!
 
-## 1. VM-Check Challenge (Hidden!!! Wenn sie kommen sind die VMs bereits gestartet und laufen im Vollbildmodus! Diese Challenge wird auch nicht erwähnt!)
+## 1. VM-Check Challenge (Hidden!!!)
+
 **Ziel:** Wer zuerst checkt, dass er in einer VM ist, gewinnt!
+**Hinweis** Wenn sie kommen sind die VMs bereits gestartet und laufen im Vollbildmodus! Diese Challenge wird auch nicht erwähnt!
 
 ## 2. EXIF-Daten Stripping Challenge
 **Ziel:** Wer zuerst alle Metadaten aus einem Bild entfernt, gewinnt! 
