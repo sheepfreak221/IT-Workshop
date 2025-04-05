@@ -33,7 +33,7 @@ Ziel ist es, Open Source & digitale Selbstbestimmung nicht nur zu erklären, son
 3. **Hands-on:** Du erstellst dein eigenes Mini-Game mit der Hilfe von Duck.AI
 4. **Präsentation:** Zeige dein Spiel und teile deine Erfahrungen
 
-## 🚀 Schnellstart
+## Schnellstart
 
 1. **Linux-VM starten**  
    Doppelklick auf die `start-vm.bat` → Die VM bootet automatisch in das vorbereitete Linux-System.
