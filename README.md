@@ -57,7 +57,7 @@ In der VM befinden sich folgende Programme – alle Open Source, datenschutzfreu
 | Verschlüsselung | VeraCrypt                                                    	  |
 | Metadaten     | `exiftool`                            |
 | Kommunikation | Pidgin + purple-facebook + OTR Plugin, Tor-Browser                   |
-| CLI Tools     | `curl`, `git`, `john`, …      					 |
+| CLI Tools     | `curl`, `git`, …      					 |
 | Programmierung	| VS Code, Geany, Bluefish						|
 
 
@@ -78,7 +78,7 @@ Fotos von öffentlichen Flickr-Profilen analysieren – enthalten sie GPS-Koordi
 Theorie trifft Praxis – Passwortcheckerseiten behaupten viel, aber wie sicher sind "sichere" Passwörter wirklich? Test mit einer verschlüsselten PDF und John the Ripper.
 
 **Sichere Passwortverwaltung:** 
-Einführung in KeePassXC – warum es gefährlich ist, sich Passwörter zu merken, und wie man mit Passwort-Datenbanken sicherer lebt.
+Einführung in KeePassXC – Warum Passwörter, die leicht zu merken sind, oft unsicher sind und wie Passwort-Manager wie KeePassXC helfen, starke Passwörter sicher zu verwalten.
 
 **Tracker erkennen und blocken:** 
 uBlock Origin in Aktion – Tracker identifizieren, blocken, Seiten sauber halten. Macht Webseiten schneller, schöner und privater.
