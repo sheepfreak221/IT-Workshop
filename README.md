@@ -22,6 +22,8 @@ Ziel ist es, Open Source & digitale Selbstbestimmung nicht nur zu erklären, son
 
 1. **Vortrag:** Was ist Open Source und warum ist Datenschutz wichtig?
 2. **Diskussion:** Einblick in aktuelle Themen und weiterführende Ressourcen
+3. **Hands-on:** Viele praxisnahe Aufgaben, die die Jugendlichen direkt umsetzen können!
+4. **Challenges:** Spannende, vertiefte Herausforderungen, die den Jugendlichen helfen, das Gelernte weiter zu vertiefen und anzuwenden! 
 
 
 ### Teil 2: Spieleprogrammierung
