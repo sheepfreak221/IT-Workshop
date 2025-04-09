@@ -68,7 +68,7 @@ Sie ist eine **amd64-VM**, die auf QEMU basiert und schnell auf fast jedem moder
 
 ### VM Screenshot
 
-![https://example.com/bild.jpg](https://raw.githubusercontent.com/sheepfreak221/IT-Workshop/refs/heads/main/Ressourcen/VM_in_Aktion_2.png)
+![Screenshot der VM](https://raw.githubusercontent.com/sheepfreak221/IT-Workshop/refs/heads/main/Ressourcen/VM_in_Aktion_2.PNG)
 
 ## Beispiel-Hands-on:
 
