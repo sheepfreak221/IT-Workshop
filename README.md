@@ -114,7 +114,7 @@ Facebook-Chat in Pidgin mit OTR verschlüsseln. Was funktioniert? Was nicht? Und
 **4 Packungen Manner Schnitten** warten auf die Sieger der Challenges!  Eine Packung pro Gewinner!
 
 ### Regeln:
-- Keine Hilfe von uns!
+- Keine direkte Hilfe von uns!
 - Nur Duck.ai zur Unterstützung erlaubt!
 - Die benötigten Programme sind teilweise **nicht installiert** und müssen von den Jugendlichen selbst über `apt` installiert werden! 
 
