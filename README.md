@@ -90,6 +90,34 @@ Einen versteckten Container erstellen und darin eine KeePass-Datenbank ablegen. 
 **Messenger absichern:** 
 Facebook-Chat in Pidgin mit OTR verschlüsseln. Was funktioniert? Was nicht? Und warum?
 
+## Challenges: 4 Missionen, 4 Packungen Schnitten, null Unterstützung – Let's hack!
+
+## 1. VM-Check Challenge (Hidden!!!)
+
+**Ziel:** Wer zuerst checkt, dass er in einer VM ist, gewinnt!
+
+**Hinweis** Wenn sie kommen sind die VMs bereits gestartet und laufen im Vollbildmodus! Diese Challenge wird auch nicht erwähnt!
+
+### 2. EXIF-Daten Stripping Challenge
+**Ziel:** Wer zuerst alle Metadaten aus einem Bild entfernt, gewinnt! 
+
+### 3. Zip-Archiv Knacken Challenge
+**Ziel:** Wer zuerst das verschlüsselte Zip-Archiv knackt, gewinnt!
+
+
+### 4. VeraCrypt-Verstecken Challenge
+**Ziel:** Wer zuerst einen verschlüsselten VeraCrypt-Container in einem Video versteckt, gewinnt! 
+
+---
+
+### Belohnung:
+**4 Packungen Manner Schnitten** warten auf die Sieger der Challenges!  Eine Packung pro Gewinner!
+
+### Regeln:
+- Keine Hilfe von uns!
+- Nur Duck.ai zur Unterstützung erlaubt!
+- Die benötigten Programme sind teilweise **nicht installiert** und müssen von den Jugendlichen selbst über `apt` installiert werden! 
+
 ---
 
 ## Zielgruppe
