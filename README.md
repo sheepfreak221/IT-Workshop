@@ -75,7 +75,7 @@ Sie ist eine **amd64-VM**, die auf QEMU basiert und schnell auf fast jedem moder
 **EXIF & Geodaten:** 
 Fotos von öffentlichen Flickr-Profilen analysieren – enthalten sie GPS-Koordinaten? Falls ja: Adresse via OpenStreetMap herausfinden. Ein realistisches Szenario, das zeigt, wie viel private Info in Bildern steckt.
 
-**Passwörter knacken:** 
+**Passwortsicherheit:** 
 Theorie trifft Praxis – Passwortcheckerseiten behaupten viel, aber wie sicher sind "sichere" Passwörter wirklich? Test mit einer verschlüsselten PDF und John the Ripper.
 
 **Sichere Passwortverwaltung:** 
