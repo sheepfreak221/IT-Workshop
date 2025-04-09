@@ -11,7 +11,7 @@ Ziel ist es, Open Source & digitale Selbstbestimmung nicht nur zu erklären, son
 - **Beispiele/** → Einfache Code-Beispiele für HTML, CSS und JavaScript
 - **Tutorials/** → Schritt-für-Schritt-Anleitungen zu Hands-on
 - **Hands-on/** → Materialien für die Hands-on bzw. Challenges 
-- **projekt/** → Hier kommen dann eure Mini-Games rein
+- **projekt/** → Hier kommen dann die Mini-Games rein
 - **links.md** → Nützliche Links und Ressourcen
 - **Artikel/** → Relevante Zeitungsartikel zu Open Source und Datenschutz
 
@@ -30,9 +30,9 @@ Ziel ist es, Open Source & digitale Selbstbestimmung nicht nur zu erklären, son
 ### Teil 2: Spieleprogrammierung
 
 1. **Einführung:** Grundlagen von HTML, CSS und JavaScript
-2. **Live-Coding:** Gemeinsam programmieren wir ein einfaches Mini-Game
-3. **Hands-on:** Du erstellst dein eigenes Mini-Game mit der Hilfe von Duck.AI
-4. **Präsentation:** Zeige dein Spiel und teile deine Erfahrungen
+2. **Live-Coding:** Gemeinsam programmieren wir mit den Jugendlichen ein einfaches Mini-Game
+3. **Hands-on:** Die Jugendlichen erstellen ihr eigenes Mini-Game mit der Hilfe von Duck.AI
+4. **Präsentation:** Sie zeigen ihr Spiel und teilen ihre Erfahrungen
 
 ## Schnellstart
 
@@ -44,7 +44,7 @@ Ziel ist es, Open Source & digitale Selbstbestimmung nicht nur zu erklären, son
    git clone https://github.com/sheepfreak221/IT-Workshop
    ```
 3. **Aufgaben öffnen**  
-   In der VM findest du jetzt eine Ordnerstruktur mit Beschreibungen & Anleitungen für jede Hands-on-Station.
+   In der VM befindet sich jetzt eine Ordnerstruktur mit Beschreibungen & Anleitungen für jede Hands-on-Station.
 
 
 ## Was ist drinnen?
@@ -64,7 +64,7 @@ In der VM befinden sich folgende Programme – alle Open Source, datenschutzfreu
 
 
 Die VM basiert auf **Debian (Bookworm)** und verwendet die Desktopumgebung **LXQt** für eine einfache, ressourcenschonende Benutzeroberfläche.
-Sie ist eine **amd64-VM**, die auf QEMU basiert und schnell auf fast jedem modernen Rechner laufen sollte. Um die VM auszuführen, stelle sicher, dass **Hyper-V** sowie **Intel VT-x** (für Intel-Prozessoren) oder **AMD-V** (für AMD-Prozessoren) auf deinem Computer aktiviert sind.
+Sie ist eine **amd64-VM**, die auf QEMU basiert und schnell auf fast jedem modernen Rechner laufen sollte. Um die VM auszuführen, muss **Hyper-V** sowie **Intel VT-x** (für Intel-Prozessoren) oder **AMD-V** (für AMD-Prozessoren) auf dem Computer aktiviert sein.
 
 ### VM Screenshot
 
