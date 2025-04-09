@@ -19,7 +19,7 @@ Ziel ist es, Open Source & digitale Selbstbestimmung nicht nur zu erklären, son
 
 
 
-### Teil 1: Open Source und Datenschutz
+### Teil 1: Open Source und Datenschutz (15. Mai 2025)
 
 1. **Vortrag:** Was ist Open Source und warum ist Datenschutz wichtig?
 2. **Diskussion:** Einblick in aktuelle Themen und weiterführende Ressourcen
@@ -27,7 +27,7 @@ Ziel ist es, Open Source & digitale Selbstbestimmung nicht nur zu erklären, son
 4. **Challenges:** Spannende, vertiefte Herausforderungen, die den Jugendlichen helfen, das Gelernte weiter zu vertiefen und anzuwenden! 
 
 
-### Teil 2: Spieleprogrammierung
+### Teil 2: Spieleprogrammierung (20. Mai 2025)
 
 1. **Einführung:** Grundlagen von HTML, CSS und JavaScript
 2. **Live-Coding:** Gemeinsam programmieren wir mit den Jugendlichen ein einfaches Mini-Game
