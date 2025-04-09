@@ -92,7 +92,7 @@ Facebook-Chat in Pidgin mit OTR verschlüsseln. Was funktioniert? Was nicht? Und
 
 ## Challenges: 4 Missionen, 4 Packungen Schnitten, null Unterstützung – Let's hack!
 
-## 1. VM-Check Challenge (Hidden!!!)
+### 1. VM-Check Challenge (Hidden!!!)
 
 **Ziel:** Wer zuerst checkt, dass er in einer VM ist, gewinnt!
 
