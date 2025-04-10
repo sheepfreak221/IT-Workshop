@@ -66,7 +66,7 @@ In der VM befinden sich folgende Programme – alle Open Source, datenschutzfreu
 Die VM basiert auf **Debian (Bookworm)** und verwendet die Desktopumgebung **LXQt** für eine einfache, ressourcenschonende Benutzeroberfläche.
 Sie ist eine **amd64-VM**, die auf QEMU basiert und schnell auf fast jedem modernen Rechner laufen sollte. Um die VM auszuführen, muss auf Windows **Hyper-V** sowie im BIOS **Intel VT-x** (für Intel-Prozessoren) oder **AMD-V** (für AMD-Prozessoren) auf dem Computer aktiviert sein.
 
-Die virtuelle Maschine (VM) ist weit mehr als nur ein technisches Mittel – sie ist das Herzstück des Workshop-Konzepts. Sie bietet eine einheitliche, abgeschottete Umgebung, in der alle Jugendlichen mit exakt der gleichen, stabilen Konfiguration arbeiten. Das verhindert nicht nur typische „es-geht-bei-mir-nicht“-Probleme, sondern vermittelt ganz nebenbei echte IT-Kompetenzen: Umgang mit einem vollwertigen Linux-System, Terminal-Nutzung, Dateistrukturen verstehen – und das alles hands-on, statt nur in der Theorie.
+Die VM ist weit mehr als nur ein technisches Mittel – sie ist das Herzstück des Workshop-Konzepts. Sie bietet eine einheitliche, abgeschottete Umgebung, in der alle Jugendlichen mit exakt der gleichen, stabilen Konfiguration arbeiten. Das verhindert nicht nur typische „es-geht-bei-mir-nicht“-Probleme, sondern vermittelt ganz nebenbei echte IT-Kompetenzen: Umgang mit einem vollwertigen Linux-System, Terminal-Nutzung, Dateistrukturen verstehen – und das alles hands-on, statt nur in der Theorie.
 
 ### VM Screenshot
 
