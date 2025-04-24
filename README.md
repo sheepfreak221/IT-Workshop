@@ -34,44 +34,12 @@ Ziel ist es, Open Source & digitale Selbstbestimmung nicht nur zu erklären, son
 3. **Hands-on:** Die Jugendlichen erstellen ihr eigenes Mini-Game mit der Hilfe von Duck.AI
 4. **Präsentation:** Sie zeigen ihr Spiel und teilen ihre Erfahrungen
 
-## Schnellstart (Windows)
-
-1. **Workshop-Dateien herunterladen**  
-   [Download-Link (MEGA)](https://mega.nz/folder/0EQ2RSzT#Ie8U7hp3knUAkGeIW2k5sA)
-
-2. **Linux-VM starten**  
-   Doppelklick auf die `start-vm.bat` → Die VM bootet automatisch in das vorbereitete Linux-System.
-
-3. **Dieses Repo clonen**  
-   ```bash
-   git clone https://github.com/sheepfreak221/IT-Workshop
-   ```
-4. **Aufgaben öffnen**
-    In der VM befindet sich jetzt eine Ordnerstruktur mit Beschreibungen & Anleitungen für jede Hands-on-Station.
-
-Die VM ist weit mehr als nur ein technisches Mittel – sie ist das Herzstück des Workshop-Konzepts. Sie bietet eine einheitliche, abgeschottete Umgebung, in der alle Jugendlichen mit exakt der gleichen, stabilen Konfiguration arbeiten. Das verhindert nicht nur typische „es-geht-bei-mir-nicht“-Probleme, sondern vermittelt ganz nebenbei echte IT-Kompetenzen: Umgang mit einem vollwertigen Linux-System, Terminal-Nutzung, Dateistrukturen verstehen – und das alles hands-on, statt nur in der Theorie.
-
-
-## Was ist drinnen?
-
-In der VM befinden sich folgende Programme – alle Open Source, datenschutzfreundlich und bereit zur Benutzung:
-
-| Kategorie        | Tools                                                                 |
-|------------------|-----------------------------------------------------------------------|
-| Web           | Firefox + uBlock Origin                                              |
-| Passwort      | KeePassXC, `john` (John the Ripper)                                  |
-| Verschlüsselung | VeraCrypt                                                    	  |
-| Metadaten     | `exiftool`                            |
-| Kommunikation | Pidgin + purple-facebook + OTR Plugin, Tor-Browser                   |
-| CLI Tools     | `curl`, `git`, …      					 |
-| Programmierung	| VS Code, Geany, Bluefish						|
-
-
-
-## Hinweise zur VM
+## Die Arbeitsumgebung (VM)
 
 Die VM basiert auf **Debian (Bookworm)** und verwendet die Desktopumgebung **LXQt** für eine einfache, ressourcenschonende Benutzeroberfläche.  
 Sie ist eine **amd64-VM**, die auf **QEMU** basiert und schnell auf fast jedem modernen Rechner laufen sollte – vorausgesetzt, Virtualisierung ist verfügbar und korrekt eingerichtet.
+
+Die VM ist weit mehr als nur ein technisches Mittel – sie ist das Herzstück des Workshop-Konzepts. Sie bietet eine einheitliche, abgeschottete Umgebung, in der alle Jugendlichen mit exakt der gleichen, stabilen Konfiguration arbeiten. Das verhindert nicht nur typische „es-geht-bei-mir-nicht“-Probleme, sondern vermittelt ganz nebenbei echte IT-Kompetenzen: Umgang mit einem vollwertigen Linux-System, Terminal-Nutzung, Dateistrukturen verstehen – und das alles hands-on, statt nur in der Theorie.
 
 ### Voraussetzungen für den VM-Betrieb
 
@@ -118,8 +86,34 @@ Sie ist eine **amd64-VM**, die auf **QEMU** basiert und schnell auf fast jedem m
 
   - Hinweis: Auf Apple-Silicon-Macs ist diese VM **nicht lauffähig**, da sie auf die amd64-Architektur angewiesen ist.
 
----
+### Schnellstart (Windows)
 
+1. **Die VM herunterladen**  
+   [Download-Link (MEGA)](https://mega.nz/folder/0EQ2RSzT#Ie8U7hp3knUAkGeIW2k5sA)
+
+2. **Linux-VM starten**  
+   Doppelklick auf die `start-vm.bat` → Die VM bootet automatisch in das vorbereitete Linux-System.
+
+3. **Dieses Repo clonen**  
+   ```bash
+   git clone https://github.com/sheepfreak221/IT-Workshop
+   ```
+4. **Aufgaben öffnen**
+    In der VM befindet sich jetzt eine Ordnerstruktur mit Beschreibungen & Anleitungen für jede Hands-on-Station.
+
+### Was ist drinnen?
+
+In der VM befinden sich folgende Programme – alle Open Source, datenschutzfreundlich und bereit zur Benutzung:
+
+| Kategorie        | Tools                                                                 |
+|------------------|-----------------------------------------------------------------------|
+| Web           | Firefox + uBlock Origin                                              |
+| Passwort      | KeePassXC, `john` (John the Ripper)                                  |
+| Verschlüsselung | VeraCrypt                                                    	  |
+| Metadaten     | `exiftool`                            |
+| Kommunikation | Pidgin + purple-facebook + OTR Plugin, Tor-Browser                   |
+| CLI Tools     | `curl`, `git`, `htop` …      					 |
+| Programmierung	| VS Code, Geany, Bluefish						|
 
 ### VM Screenshot
 
