@@ -34,17 +34,22 @@ Ziel ist es, Open Source & digitale Selbstbestimmung nicht nur zu erklären, son
 3. **Hands-on:** Die Jugendlichen erstellen ihr eigenes Mini-Game mit der Hilfe von Duck.AI
 4. **Präsentation:** Sie zeigen ihr Spiel und teilen ihre Erfahrungen
 
-## Schnellstart
+## Schnellstart (Windows)
 
-1. **Linux-VM starten**  
+1. **Workshop-Dateien herunterladen**  
+   [Download-Link (MEGA)](https://mega.nz/folder/0EQ2RSzT#Ie8U7hp3knUAkGeIW2k5sA)
+
+2. **Linux-VM starten**  
    Doppelklick auf die `start-vm.bat` → Die VM bootet automatisch in das vorbereitete Linux-System.
 
-2. **Dieses Repo clonen**  
+3. **Dieses Repo clonen**  
    ```bash
    git clone https://github.com/sheepfreak221/IT-Workshop
    ```
-3. **Aufgaben öffnen**  
-   In der VM befindet sich jetzt eine Ordnerstruktur mit Beschreibungen & Anleitungen für jede Hands-on-Station.
+4. **Aufgaben öffnen**
+    In der VM befindet sich jetzt eine Ordnerstruktur mit Beschreibungen & Anleitungen für jede Hands-on-Station.
+
+Die VM ist weit mehr als nur ein technisches Mittel – sie ist das Herzstück des Workshop-Konzepts. Sie bietet eine einheitliche, abgeschottete Umgebung, in der alle Jugendlichen mit exakt der gleichen, stabilen Konfiguration arbeiten. Das verhindert nicht nur typische „es-geht-bei-mir-nicht“-Probleme, sondern vermittelt ganz nebenbei echte IT-Kompetenzen: Umgang mit einem vollwertigen Linux-System, Terminal-Nutzung, Dateistrukturen verstehen – und das alles hands-on, statt nur in der Theorie.
 
 
 ## Was ist drinnen?
@@ -63,10 +68,58 @@ In der VM befinden sich folgende Programme – alle Open Source, datenschutzfreu
 
 
 
-Die VM basiert auf **Debian (Bookworm)** und verwendet die Desktopumgebung **LXQt** für eine einfache, ressourcenschonende Benutzeroberfläche.
-Sie ist eine **amd64-VM**, die auf QEMU basiert und schnell auf fast jedem modernen Rechner laufen sollte. Um die VM auszuführen, muss auf Windows **Hyper-V** sowie im BIOS **Intel VT-x** (für Intel-Prozessoren) oder **AMD-V** (für AMD-Prozessoren) auf dem Computer aktiviert sein.
+## Hinweise zur VM
 
-Die VM ist weit mehr als nur ein technisches Mittel – sie ist das Herzstück des Workshop-Konzepts. Sie bietet eine einheitliche, abgeschottete Umgebung, in der alle Jugendlichen mit exakt der gleichen, stabilen Konfiguration arbeiten. Das verhindert nicht nur typische „es-geht-bei-mir-nicht“-Probleme, sondern vermittelt ganz nebenbei echte IT-Kompetenzen: Umgang mit einem vollwertigen Linux-System, Terminal-Nutzung, Dateistrukturen verstehen – und das alles hands-on, statt nur in der Theorie.
+Die VM basiert auf **Debian (Bookworm)** und verwendet die Desktopumgebung **LXQt** für eine einfache, ressourcenschonende Benutzeroberfläche.  
+Sie ist eine **amd64-VM**, die auf **QEMU** basiert und schnell auf fast jedem modernen Rechner laufen sollte – vorausgesetzt, Virtualisierung ist verfügbar und korrekt eingerichtet.
+
+### Voraussetzungen für den VM-Betrieb
+
+#### Windows
+
+- Unterstützte Windows-Versionen:
+  - **Windows 10/11 Pro, Education oder Enterprise**  
+    _(Windows Home wird **nicht** unterstützt, da WHPX nicht verfügbar ist)_
+
+- Voraussetzungen:
+  - **Hardware-Virtualisierung (VT-x oder AMD-V)** im BIOS/UEFI aktiviert
+  - **Windows-Hypervisor-Plattform aktivieren**  
+    Öffne PowerShell **als Administrator** und führe aus:
+    ```powershell
+    dism.exe /Online /Enable-Feature /FeatureName:HypervisorPlatform /All /NoRestart
+    ```
+    Danach PC neu starten.
+
+#### Linux
+
+- QEMU sollte mit KVM-Unterstützung laufen (Kernel-basierte Virtualisierung).
+- Voraussetzungen:
+  - **KVM-Modul geladen** (`kvm` und `kvm_amd` bzw. `kvm_intel`)
+  - Der aktuelle Benutzer muss Mitglied der Gruppe `kvm` sein:
+    ```bash
+    sudo usermod -aG kvm $USER
+    ```
+  - Test mit:
+    ```bash
+    kvm-ok
+    ```
+
+
+#### macOS (nur Intel-Macs)
+
+- Voraussetzungen:
+  - **macOS Catalina (10.15)** oder neuer (empfohlen: Big Sur oder neuer)
+  - Installation von QEMU über Homebrew:
+    ```bash
+    brew install qemu
+    ```
+  - Für Hardware-Beschleunigung nutzt QEMU auf Intel-Macs entweder **HVF (Hypervisor.framework)** oder das neue **Apple Virtualization Framework** (ab Big Sur).
+    QEMU verwendet HVF automatisch, wenn verfügbar. Es ist vergleichbar mit KVM/WHPX.
+
+  - Hinweis: Auf Apple-Silicon-Macs ist diese VM **nicht lauffähig**, da sie auf die amd64-Architektur angewiesen ist.
+
+---
+
 
 ### VM Screenshot
 
