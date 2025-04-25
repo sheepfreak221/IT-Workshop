@@ -245,7 +245,6 @@ Zusatz: Das Passwort aus der PDF-Datei entfernen!
 
 Ziel: Als erster einen verschlüsselten VeraCrypt-Container in einem Video verstecken!
 Zusatz: Ein Rickroll-Meme wird im äußeren Container versteckt, das über das Terminal von YouTube heruntergeladen wird!
----
 
 ### Belohnung:
 **4 Packungen Manner Schnitten** warten auf die Sieger der Challenges!  Eine Packung pro Gewinner!
