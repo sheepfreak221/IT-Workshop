@@ -238,9 +238,9 @@ Mit dem Tor-Browser wird gezeigt, wie sich Internetzensur technisch umgehen läs
 
 ### 1. VM-Check Challenge (Hidden!!!)
 
-Ziel: Als erster herausfinden, dass die VM in Betrieb ist!
+Ziel: Wer zuerst checkt, dass er in einer VM ist, gewinnt!
 
-Hinweis: Beim Start des der VM läuft diese bereits im Vollbildmodus. Diese Challenge wird nicht direkt erwähnt!
+Hinweis: Wenn sie kommen sind die VMs bereits gestartet und laufen im Vollbildmodus! Diese Challenge wird auch nicht erwähnt!
 
 ### 2. EXIF-Daten Stripping Challenge
 
