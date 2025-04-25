@@ -286,14 +286,16 @@ Er soll **nicht nur warnen**, sondern **ermächtigen**: zum Selberdenken, Selber
 -->
 
 
-Dieser Workshop wurde aus Frust über langweilige Informatik-Einheiten geboren – und aus der Liebe zu Open Source & echter Medienbildung.
+Dieser Workshop ist aus Frust entstanden – über langweilige Informatikstunden ohne Bezug zur Lebensrealität. Und aus Begeisterung für Open Source, digitale Selbstbestimmung und echte Medienbildung.
 
-Er soll nicht nur warnen, sondern ermächtigen: zum Selberdenken, Selbermachen, Selberschützen.
-Die Inhalte sind bewusst so gewählt, dass sie mit echten Beispielen aus der digitalen Realität arbeiten – nichts davon ist fiktiv oder konstruiert.
+Er will nicht nur warnen, sondern ermächtigen: zum Selberdenken, Selbermachen, Selberschützen.
+Die Inhalte basieren auf realen Beispielen aus der digitalen Welt – nichts ist gestellt oder konstruiert.
 
-Statt grauer Theorie gibt es greifbare Aha-Momente: Jeder Hands-on-Teil basiert auf relevanten, realen Situationen, die zeigen, wie wichtig digitale Selbstverteidigung ist.
+Statt grauer Theorie gibt es greifbare Aha-Momente: Jede Hands-on-Übung ist ein echtes Szenario, das zeigt, wie wichtig digitale Selbstverteidigung heute ist.
 
-Ziel ist es, Wissen nicht nur zu vermitteln, sondern erlebbar zu machen.
+Und es bleibt nicht bei der Kritik: Wo Missstände aufgezeigt werden, zeigen wir auch Alternativen – wie das Fediverse, freie Software und datenschutzfreundliche Werkzeuge.
+
+Ziel ist echte Aufklärung, die hängen bleibt – Wissen, das man nicht nur versteht, sondern erlebt.
 
 ---
 
