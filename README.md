@@ -279,16 +279,22 @@ Zusatz: Ein Rickroll-Meme wird im äußeren Container versteckt, das über das T
 ---
 
 ## Motivation
+
 <!--
 Dieser Workshop wurde aus Frust über langweilige Informatik-Einheiten geboren – und aus der Liebe zu Open Source & echter Medienbildung.  
 Er soll **nicht nur warnen**, sondern **ermächtigen**: zum Selberdenken, Selbermachen, Selberschützen.
 -->
 
+
 Dieser Workshop wurde aus Frust über langweilige Informatik-Einheiten geboren – und aus der Liebe zu Open Source & echter Medienbildung.
+
 Er soll nicht nur warnen, sondern ermächtigen: zum Selberdenken, Selbermachen, Selberschützen.
 Die Inhalte sind bewusst so gewählt, dass sie mit echten Beispielen aus der digitalen Realität arbeiten – nichts davon ist fiktiv oder konstruiert.
+
 Statt grauer Theorie gibt es greifbare Aha-Momente: Jeder Hands-on-Teil basiert auf relevanten, realen Situationen, die zeigen, wie wichtig digitale Selbstverteidigung ist.
+
 Ziel ist es, Wissen nicht nur zu vermitteln, sondern erlebbar zu machen.
+
 ---
 
 ## Lizenz
