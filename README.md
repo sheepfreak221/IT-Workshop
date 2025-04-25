@@ -149,6 +149,7 @@ Facebook-Chat in Pidgin mit OTR verschlüsseln. Was funktioniert? Was nicht? Und
 Zum Start des Workshops wird gemeinsam über das Terminal ein vorbereitetes GitHub-Repository geklont, das alle Übungsdaten und Aufgaben enthält. Damit ist sichergestellt, dass alle Teilnehmenden sofort mit dem Arbeiten beginnen können.
 
 **Ziel:** Zugriff auf alle benötigten Dateien und Skripte.  
+
 **Werkzeuge:** Terminal, Git
 
 
@@ -157,6 +158,7 @@ Zum Start des Workshops wird gemeinsam über das Terminal ein vorbereitetes GitH
 Die Teilnehmenden analysieren Fotos von öffentlichen Flickr-Profilen auf versteckte Metadaten wie GPS-Koordinaten. Falls vorhanden, wird der exakte Aufnahmeort über OpenStreetMap ermittelt. Diese Übung zeigt sehr anschaulich, wie viele private Informationen unbemerkt in Bildern enthalten sein können.
 
 **Ziel:** Sensibilisierung für Metadaten in digitalen Bildern.  
+
 **Werkzeuge:** `exiftool`, Webbrowser, OpenStreetMap
 
 
@@ -164,7 +166,8 @@ Die Teilnehmenden analysieren Fotos von öffentlichen Flickr-Profilen auf verste
 
 Nach einem kurzen Theorieteil zum Thema Passwortstärke wird überprüft, wie sicher „sichere“ Passwörter in der Praxis tatsächlich sind. Die Teilnehmenden versuchen, eine verschlüsselte PDF-Datei zu knacken, um ein realistisches Gefühl für Passwortsicherheit zu entwickeln.
 
-**Ziel:** Kritisches Hinterfragen von Passwortsicherheit und besseres Verständnis für Angriffsmethoden.  
+**Ziel:** Kritisches Hinterfragen von Passwortsicherheit und besseres Verständnis für Angriffsmethoden. 
+
 **Werkzeuge:** John the Ripper, verschlüsselte Beispiel-Datei
 
 
@@ -173,6 +176,7 @@ Nach einem kurzen Theorieteil zum Thema Passwortstärke wird überprüft, wie si
 Es wird gezeigt, wie man mit einem Passwortmanager wie KeePassXC starke Passwörter erzeugt, speichert und sicher verwaltet. Dabei wird erläutert, warum Merkbarkeit nicht immer gleich Sicherheit bedeutet.
 
 **Ziel:** Einführung in sichere Passwortstrategien und praktische Nutzung eines Passwortmanagers.  
+
 **Werkzeuge:** KeePassXC
 
 
@@ -180,7 +184,8 @@ Es wird gezeigt, wie man mit einem Passwortmanager wie KeePassXC starke Passwör
 
 Anhand realer Webseiten wird demonstriert, wie viele Tracker aktiv sind und wie man sie identifizieren und blockieren kann. Dabei kommt uBlock Origin zum Einsatz, ein Tool, das viele bereits aus dem Alltag kennen, aber selten in seiner ganzen Funktionalität nutzen.
 
-**Ziel:** Erkennen und Blockieren von Tracking-Technologien zur Verbesserung des Datenschutzes.  
+**Ziel:** Erkennen und Blockieren von Tracking-Technologien zur Verbesserung des Datenschutzes. 
+
 **Werkzeuge:** uBlock Origin, Browser-Entwicklertools
 
 
@@ -189,6 +194,7 @@ Anhand realer Webseiten wird demonstriert, wie viele Tracker aktiv sind und wie 
  Die Teilnehmenden lernen, wie man mit VeraCrypt verschlüsselte Container erstellt und darin sensible Daten sicher speichert. Im praktischen Beispiel wird eine KeePass-Datenbank in einem verschlüsselten Container abgelegt.
 
 **Ziel:** Verständnis für Verschlüsselung und digitale Tarnung.  
+
 **Werkzeuge:** VeraCrypt
 
 
@@ -197,6 +203,7 @@ Anhand realer Webseiten wird demonstriert, wie viele Tracker aktiv sind und wie 
 Es wird gezeigt, wie sich klassische Messenger wie Facebook Chat in Pidgin einbinden lassen und wie man über das OTR-Protokoll (Off-the-Record Messaging) verschlüsselte Kommunikation aufbauen kann. Dabei werden auch die Grenzen dieser Technik diskutiert.
 
 **Ziel:** Praktische Einführung in verschlüsselte Kommunikation.  
+
 **Werkzeuge:** Pidgin, OTR-Plugin
 
 
@@ -205,6 +212,7 @@ Es wird gezeigt, wie sich klassische Messenger wie Facebook Chat in Pidgin einbi
 Zwei kurze TikTok-Videos, die bewusst falsche Informationen verbreiten, werden analysiert. Zunächst wird demonstriert, wie aus einem Video mit Tools wie `mpv` und GIMP einzelne Frames extrahiert werden. Anschließend nutzen die Teilnehmenden Rückwärtssuchen wie Google Bilder und TinEye, um die tatsächliche Herkunft der verwendeten Bilder zu ermitteln.
 
 **Ziel:** Kritisches Denken schulen und Recherchetechniken gegen Desinformation anwenden.  
+
 **Werkzeuge:** mpv, GIMP, Google Bildersuche, TinEye
 
 
@@ -213,6 +221,7 @@ Zwei kurze TikTok-Videos, die bewusst falsche Informationen verbreiten, werden a
 Die Teilnehmenden sehen sich an, welche Bewegungsdaten von ihren Smartphones aufgezeichnet wurden – sowohl über die Google Maps Timeline als auch über Apples Standortverlauf. Diese Übung führt meist zu einem Aha-Effekt, da viele nicht wissen, wie genau ihre Wege gespeichert werden.
 
 **Ziel:** Sensibilisierung für das Tracking durch mobile Endgeräte.  
+
 **Werkzeuge:** eigenes Smartphone, Google Maps oder Apple Einstellungen
 
 
@@ -221,6 +230,7 @@ Die Teilnehmenden sehen sich an, welche Bewegungsdaten von ihren Smartphones auf
 Mit dem Tor-Browser wird gezeigt, wie sich Internetzensur technisch umgehen lässt. Zusätzlich wird demonstriert, wie Netzsperren durch alternative DNS-Server ausgehebelt werden können. Die Unterschiede beider Ansätze werden gemeinsam reflektiert.
 
 **Ziel:** Die Teilnehmenden lernen, wie sie Internetzensur umgehen können.
+
 **Werkzeuge:** Tor Browser, DNS-Änderung (z. B. Google, Cloudflare)
 
 
@@ -229,21 +239,25 @@ Mit dem Tor-Browser wird gezeigt, wie sich Internetzensur technisch umgehen läs
 ### 1. VM-Check Challenge (Hidden!!!)
 
 Ziel: Als erster herausfinden, dass die VM in Betrieb ist!
+
 Hinweis: Beim Start des der VM läuft diese bereits im Vollbildmodus. Diese Challenge wird nicht direkt erwähnt!
 
 ### 2. EXIF-Daten Stripping Challenge
 
 Ziel: Als erster alle Metadaten aus einem Bild entfernen!
+
 Zusatz: Ein Bash-Skript erstellen, das alle Bilder im aktuellen Verzeichnis strippt!
 
 ### 3. Zip-Archiv Knacken Challenge
 
 Ziel: Als erster das verschlüsselte Zip-Archiv knacken!
+
 Zusatz: Das Passwort aus der PDF-Datei entfernen!
 
 ### 4. VeraCrypt-Verstecken Challenge
 
 Ziel: Als erster einen verschlüsselten VeraCrypt-Container in einem Video verstecken!
+
 Zusatz: Ein Rickroll-Meme wird im äußeren Container versteckt, das über das Terminal von YouTube heruntergeladen wird!
 
 ### Belohnung:
