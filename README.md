@@ -142,6 +142,7 @@ Um die Benutzer und Passwörter bei Bedarf zu ändern, können die folgenden Sch
 2. **Neuen Benutzer hinzufügen:**
    - Als root anmelden.
    - Den Befehl verwenden:
+
      ```bash
      adduser <neuer_benutzername>
      ```
@@ -150,6 +151,7 @@ Um die Benutzer und Passwörter bei Bedarf zu ändern, können die folgenden Sch
 3. **Benutzer löschen:**
    - Als root anmelden.
    - Den Befehl verwenden:
+   
      ```bash
      deluser <benutzername>
      ```
