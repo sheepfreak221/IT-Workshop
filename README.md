@@ -307,8 +307,6 @@ Die Teilnehmenden sehen sich an, welche Bewegungsdaten von ihren Smartphones auf
 
 - **Werkzeuge:** eigenes Smartphone, Google Maps oder Apple Einstellungen
 
-
-
 ### Zensur umgehen & freies Internet nutzen:
 Mit dem Tor-Browser wird gezeigt, wie sich Internetzensur technisch umgehen lässt. Zusätzlich wird demonstriert, wie Netzsperren durch alternative DNS-Server ausgehebelt werden können. Die Unterschiede beider Ansätze werden gemeinsam reflektiert.
 
@@ -316,32 +314,40 @@ Mit dem Tor-Browser wird gezeigt, wie sich Internetzensur technisch umgehen läs
 
 - **Werkzeuge:** Tor Browser, DNS-Änderung (z. B. Google, Cloudflare)
 
+### KI-Modelle erforschen:
+
+Nach einer kurzen Einführung testen die Teilnehmenden fünf KI-Modelle (BLIP, DistilBERT, GPT-2, EasyOCR, Real-ESRGAN) direkt über eine Weboberfläche. Dabei können sie kreativ werden und die Fähigkeiten der Modelle ausprobieren.
+
+- **Ziel:** Verständnis für verschiedene KI-Anwendungen entwickeln und eigene Eindrücke sammeln.
+
+- **Werkzeuge:** Firefox
+
 
 ## Challenges: 4 Missionen, 4 Packungen Schnitten, null Unterstützung – Let's hack!
 
 ### 1. VM-Check Challenge (Hidden!!!)
 
-- Ziel: Wer zuerst checkt, dass er in einer VM ist, gewinnt!
+- **Ziel:** Wer zuerst checkt, dass er in einer VM ist, gewinnt!
 
-- Hinweis: Wenn sie kommen sind die VMs bereits gestartet und laufen im Vollbildmodus! Diese Challenge wird auch nicht erwähnt!
+- **Hinweis:** Wenn sie kommen sind die VMs bereits gestartet und laufen im Vollbildmodus! Diese Challenge wird auch nicht erwähnt!
 
 ### 2. EXIF-Daten Stripping Challenge
 
-- Ziel: Als erster alle Metadaten aus einem Bild entfernen!
+- **Ziel:** Als erster alle Metadaten aus einem Bild entfernen!
 
-- Zusatz: Ein Bash-Skript erstellen, das alle Bilder im aktuellen Verzeichnis strippt!
+- **Zusatz:** Ein Bash-Skript erstellen, das alle Bilder im aktuellen Verzeichnis strippt!
 
 ### 3. Zip-Archiv Knacken Challenge
 
-- Ziel: Als erster das verschlüsselte Zip-Archiv knacken!
+- **Ziel:** Als erster das verschlüsselte Zip-Archiv knacken!
 
-- Zusatz: Das Passwort aus der PDF-Datei entfernen!
+- **Zusatz:** Das Passwort aus der PDF-Datei entfernen!
 
 ### 4. VeraCrypt-Verstecken Challenge
 
-- Ziel: Als erster einen verschlüsselten VeraCrypt-Container in einem Video verstecken!
+- **Ziel:** Als erster einen verschlüsselten VeraCrypt-Container in einem Video verstecken!
 
-- Zusatz: Ein Rickroll-Meme wird im äußeren Container versteckt, das über das Terminal von YouTube heruntergeladen wird!
+- **Zusatz:** Ein Rickroll-Meme, das im äußeren Container versteckt werden soll, wird selbst über das Terminal von YouTube heruntergeladen!
 
 ### Belohnung:
 **Eine Packung Manner Schnitten** warten auf die Sieger der einzelnen Challenges!
