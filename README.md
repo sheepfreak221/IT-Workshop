@@ -124,7 +124,7 @@ In der VM befinden sich folgende Programme – alle Open Source, datenschutzfreu
 
 | Benutzer   | Passwort  |
 |------------|-----------|
-| userI     | workshop  |
+| workshop     | workshop  |
 | root       | workshop  |
 
 #### Benutzer und Passwörter ändern
@@ -163,14 +163,15 @@ Um sicherzustellen, dass der neue Benutzer Sudo-Rechte hat, kann er in die Sudoe
    ```bash
    nano /etc/sudoers
   ```
-    Die folgende Zeile hinzufügen, um dem neuen Benutzer Sudo-Rechte zu gewähren:
+  
+  Die folgende Zeile hinzufügen, um dem neuen Benutzer Sudo-Rechte zu gewähren:
   
   ```bash
     <neuer_benutzername> ALL=(ALL) ALL
   ```
   Die Datei speichern und den Editor verlassen.
 
-Jetzt hat der neue Benutzer Sudo-Rechte.
+  Jetzt hat der neue Benutzer Sudo-Rechte.
 <!--
 ## Hands-on-Übungen:
 
