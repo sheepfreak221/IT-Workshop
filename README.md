@@ -14,7 +14,6 @@ Ziel ist es, Open Source & digitale Selbstbestimmung nicht nur zu erklären, son
 - **Hands-on/** → Materialien für die Hands-on-Aufgaben bzw. Challenges 
 <!-- - **projekt/** → Hier kommen dann die Mini-Games rein -->
 - **links.md** → Nützliche Links und Ressourcen
-- 
 
 ## Workshop-Ablauf:
 
@@ -117,7 +116,7 @@ In der VM befinden sich folgende Programme – alle Open Source, datenschutzfreu
 | Metadaten     | `exiftool`                            |
 | Kommunikation | Pidgin + purple-facebook + OTR Plugin, Tor-Browser                   |
 | CLI Tools     | `curl`, `git`, `htop` …      					 |
-| Programmierung	| VS Code, Geany, Bluefish						|
+| Programmierung	| VS Code, Geany, Bluefish, Python						|
 
 ### VM Screenshot
 
@@ -242,27 +241,27 @@ Mit dem Tor-Browser wird gezeigt, wie sich Internetzensur technisch umgehen läs
 
 ### 1. VM-Check Challenge (Hidden!!!)
 
-Ziel: Wer zuerst checkt, dass er in einer VM ist, gewinnt!
+- Ziel: Wer zuerst checkt, dass er in einer VM ist, gewinnt!
 
-Hinweis: Wenn sie kommen sind die VMs bereits gestartet und laufen im Vollbildmodus! Diese Challenge wird auch nicht erwähnt!
+- Hinweis: Wenn sie kommen sind die VMs bereits gestartet und laufen im Vollbildmodus! Diese Challenge wird auch nicht erwähnt!
 
 ### 2. EXIF-Daten Stripping Challenge
 
-Ziel: Als erster alle Metadaten aus einem Bild entfernen!
+- Ziel: Als erster alle Metadaten aus einem Bild entfernen!
 
-Zusatz: Ein Bash-Skript erstellen, das alle Bilder im aktuellen Verzeichnis strippt!
+- Zusatz: Ein Bash-Skript erstellen, das alle Bilder im aktuellen Verzeichnis strippt!
 
 ### 3. Zip-Archiv Knacken Challenge
 
-Ziel: Als erster das verschlüsselte Zip-Archiv knacken!
+- Ziel: Als erster das verschlüsselte Zip-Archiv knacken!
 
-Zusatz: Das Passwort aus der PDF-Datei entfernen!
+- Zusatz: Das Passwort aus der PDF-Datei entfernen!
 
 ### 4. VeraCrypt-Verstecken Challenge
 
-Ziel: Als erster einen verschlüsselten VeraCrypt-Container in einem Video verstecken!
+- Ziel: Als erster einen verschlüsselten VeraCrypt-Container in einem Video verstecken!
 
-Zusatz: Ein Rickroll-Meme wird im äußeren Container versteckt, das über das Terminal von YouTube heruntergeladen wird!
+- Zusatz: Ein Rickroll-Meme wird im äußeren Container versteckt, das über das Terminal von YouTube heruntergeladen wird!
 
 ### Belohnung:
 **Eine Packung Manner Schnitten** warten auf die Sieger der einzelnen Challenges!
