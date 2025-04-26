@@ -345,9 +345,9 @@ Nach einer kurzen Einführung testen die Teilnehmenden fünf KI-Modelle (BLIP, D
 
 ### 4. VeraCrypt-Verstecken Challenge
 
-- **Ziel:** Als erster einen verschlüsselten VeraCrypt-Container in einem Video verstecken!
+- **Ziel:** Einen versteckten VeraCrypt-Container in einem Video verstecken, wobei der äußere Container ein harmloses Rickroll-Meme enthält und das versteckte Volume eine KeePass-Datenbank mit sensiblen Daten beherbergt.
 
-- **Zusatz:** Ein Rickroll-Meme, das im äußeren Container versteckt werden soll, wird selbst über das Terminal von YouTube heruntergeladen!
+- **Zusatz:** Das Rickroll-Meme, das im äußeren Container versteckt werden soll, wird selbst über das Terminal von YouTube heruntergeladen!
 
 ### Belohnung:
 **Eine Packung Manner Schnitten** warten auf die Sieger der einzelnen Challenges!
