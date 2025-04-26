@@ -146,23 +146,23 @@ Um die Benutzer und Passwörter bei Bedarf zu ändern, können die folgenden Sch
      ```bash
      adduser <neuer_benutzername>
      ```
+
    - Den Anweisungen folgen, um das Passwort und andere Informationen einzugeben.
 
 3. **Benutzer löschen:**
    - Als root anmelden.
    - Den Befehl verwenden:
-   
+
      ```bash
      deluser <benutzername>
      ```
-
 #### Sudoers-Datei
 
 Um sicherzustellen, dass der neue Benutzer Sudo-Rechte hat, kann er in die Sudoers-Datei eingetragen werden:
 
 1. Als root anmelden.
 2. Die Sudoers-Datei mit `nano` öffnen:
-   ```bash
+  ```bash
    nano /etc/sudoers
   ```
   
