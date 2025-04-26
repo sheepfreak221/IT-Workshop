@@ -7,13 +7,14 @@ Ziel ist es, Open Source & digitale Selbstbestimmung nicht nur zu erklären, son
 ## Inhalt:
 
 - **Folien/** → Präsentationsfolien (.pdf)
+- **Medien/** → Relevante Beiträge aus Medien (Zeitungen, Magazine, TV)
 - **Ressourcen/** → Zusätzliche Materialien 
 - **Beispiele/** → Einfache Code-Beispiele für HTML, CSS und JavaScript
-- **Tutorials/** → Schritt-für-Schritt-Anleitungen zu Hands-on
-- **Hands-on/** → Materialien für die Hands-on bzw. Challenges 
-- **projekt/** → Hier kommen dann die Mini-Games rein
+<!-- - **Tutorials/** → Schritt-für-Schritt-Anleitungen zu Hands-on -->
+- **Hands-on/** → Materialien für die Hands-on-Aufgaben bzw. Challenges 
+<!-- - **projekt/** → Hier kommen dann die Mini-Games rein -->
 - **links.md** → Nützliche Links und Ressourcen
-- **Artikel/** → Relevante Zeitungsartikel zu Open Source und Datenschutz
+- 
 
 ## Workshop-Ablauf:
 
@@ -42,6 +43,10 @@ Sie ist eine **amd64-VM**, die auf **QEMU** basiert und schnell auf fast jedem m
 Die VM ist weit mehr als nur ein technisches Mittel – sie ist das Herzstück des Workshop-Konzepts. Sie bietet eine einheitliche, abgeschottete Umgebung, in der alle Jugendlichen mit exakt der gleichen, stabilen Konfiguration arbeiten. Das verhindert nicht nur typische „es-geht-bei-mir-nicht“-Probleme, sondern vermittelt ganz nebenbei echte IT-Kompetenzen: Umgang mit einem vollwertigen Linux-System, Terminal-Nutzung, Dateistrukturen verstehen – und das alles hands-on, statt nur in der Theorie.
 
 ### Voraussetzungen für den VM-Betrieb
+#### Allgemein
+
+- **Hardware-Virtualisierung (VT-x oder AMD-V)** im BIOS/UEFI aktiviert
+
 
 #### Windows
 
@@ -50,7 +55,6 @@ Die VM ist weit mehr als nur ein technisches Mittel – sie ist das Herzstück d
     _(Windows Home wird **nicht** unterstützt, da WHPX nicht verfügbar ist)_
 
 - Voraussetzungen:
-  - **Hardware-Virtualisierung (VT-x oder AMD-V)** im BIOS/UEFI aktiviert
   - **Windows-Hypervisor-Plattform aktivieren**  
     Öffne PowerShell **als Administrator** und führe aus:
     ```powershell
@@ -148,90 +152,90 @@ Facebook-Chat in Pidgin mit OTR verschlüsseln. Was funktioniert? Was nicht? Und
 
 Zum Start des Workshops wird gemeinsam über das Terminal ein vorbereitetes GitHub-Repository geklont, das alle Übungsdaten und Aufgaben enthält. Damit ist sichergestellt, dass alle Teilnehmenden sofort mit dem Arbeiten beginnen können.
 
-**Ziel:** Zugriff auf alle benötigten Dateien und Skripte.  
+- **Ziel:** Zugriff auf alle benötigten Dateien und Skripte.  
 
-**Werkzeuge:** Terminal, Git
+- **Werkzeuge:** Terminal, Git
 
 
 ### EXIF-Daten und Geolokalisierung
 
 Die Teilnehmenden analysieren Fotos von öffentlichen Flickr-Profilen auf versteckte Metadaten wie GPS-Koordinaten. Falls vorhanden, wird der exakte Aufnahmeort über OpenStreetMap ermittelt. Diese Übung zeigt sehr anschaulich, wie viele private Informationen unbemerkt in Bildern enthalten sein können.
 
-**Ziel:** Sensibilisierung für Metadaten in digitalen Bildern.  
+- **Ziel:** Sensibilisierung für Metadaten in digitalen Bildern.  
 
-**Werkzeuge:** `exiftool`, Webbrowser, OpenStreetMap
+- **Werkzeuge:** Terminal, `exiftool`, Firefox, OpenStreetMap
 
 
 ### Passwortsicherheit analysieren
 
 Nach einem kurzen Theorieteil zum Thema Passwortstärke wird überprüft, wie sicher „sichere“ Passwörter in der Praxis tatsächlich sind. Die Teilnehmenden versuchen, eine verschlüsselte PDF-Datei zu knacken, um ein realistisches Gefühl für Passwortsicherheit zu entwickeln.
 
-**Ziel:** Kritisches Hinterfragen von Passwortsicherheit und besseres Verständnis für Angriffsmethoden. 
+- **Ziel:** Kritisches Hinterfragen von Passwortsicherheit und besseres Verständnis für Angriffsmethoden. 
 
-**Werkzeuge:** John the Ripper, verschlüsselte Beispiel-Datei
+- **Werkzeuge:** Terminal, Python, John the Ripper, verschlüsselte Beispiel-Datei
 
 
 ### Passwortverwaltung mit KeePassXC
 
 Es wird gezeigt, wie man mit einem Passwortmanager wie KeePassXC starke Passwörter erzeugt, speichert und sicher verwaltet. Dabei wird erläutert, warum Merkbarkeit nicht immer gleich Sicherheit bedeutet.
 
-**Ziel:** Einführung in sichere Passwortstrategien und praktische Nutzung eines Passwortmanagers.  
+- **Ziel:** Einführung in sichere Passwortstrategien und praktische Nutzung eines Passwortmanagers.  
 
-**Werkzeuge:** KeePassXC
+- **Werkzeuge:** KeePassXC
 
 
 ### Tracker erkennen und blockieren
 
 Anhand realer Webseiten wird demonstriert, wie viele Tracker aktiv sind und wie man sie identifizieren und blockieren kann. Dabei kommt uBlock Origin zum Einsatz, ein Tool, das viele bereits aus dem Alltag kennen, aber selten in seiner ganzen Funktionalität nutzen.
 
-**Ziel:** Erkennen und Blockieren von Tracking-Technologien zur Verbesserung des Datenschutzes. 
+- **Ziel:** Erkennen und Blockieren von Tracking-Technologien zur Verbesserung des Datenschutzes. 
 
-**Werkzeuge:** uBlock Origin, Browser-Entwicklertools
+- **Werkzeuge:** Firefox, uBlock Origin, Browser-Entwicklertools
 
 
 ### Verschlüsselte Container mit VeraCrypt
 
  Die Teilnehmenden lernen, wie man mit VeraCrypt verschlüsselte Container erstellt und darin sensible Daten sicher speichert. Im praktischen Beispiel wird eine KeePass-Datenbank in einem verschlüsselten Container abgelegt.
 
-**Ziel:** Verständnis für Verschlüsselung und digitale Tarnung.  
+- **Ziel:** Verständnis für Verschlüsselung und digitale Tarnung.  
 
-**Werkzeuge:** VeraCrypt
+- **Werkzeuge:** VeraCrypt
 
 
 ### Messenger verschlüsseln mit OTR
 
 Es wird gezeigt, wie sich klassische Messenger wie Facebook Chat in Pidgin einbinden lassen und wie man über das OTR-Protokoll (Off-the-Record Messaging) verschlüsselte Kommunikation aufbauen kann. Dabei werden auch die Grenzen dieser Technik diskutiert.
 
-**Ziel:** Praktische Einführung in verschlüsselte Kommunikation.  
+- **Ziel:** Praktische Einführung in verschlüsselte Kommunikation.  
 
-**Werkzeuge:** Pidgin, OTR-Plugin
+- **Werkzeuge:** Pidgin, purple-facebook, OTR-Plugin
 
 
 ### Fake News erkennen und enttarnen
 
 Zwei kurze TikTok-Videos, die bewusst falsche Informationen verbreiten, werden analysiert. Zunächst wird demonstriert, wie aus einem Video mit Tools wie `mpv` und GIMP einzelne Frames extrahiert werden. Anschließend nutzen die Teilnehmenden Rückwärtssuchen wie Google Bilder und TinEye, um die tatsächliche Herkunft der verwendeten Bilder zu ermitteln.
 
-**Ziel:** Kritisches Denken schulen und Recherchetechniken gegen Desinformation anwenden.  
+- **Ziel:** Kritisches Denken schulen und Recherchetechniken gegen Desinformation anwenden.  
 
-**Werkzeuge:** mpv, GIMP, Google Bildersuche, TinEye
+- **Werkzeuge:** mpv, GIMP, Firefox, Google Bildersuche, TinEye
 
 
 ### Der digitale Fußabdruck
 
 Die Teilnehmenden sehen sich an, welche Bewegungsdaten von ihren Smartphones aufgezeichnet wurden – sowohl über die Google Maps Timeline als auch über Apples Standortverlauf. Diese Übung führt meist zu einem Aha-Effekt, da viele nicht wissen, wie genau ihre Wege gespeichert werden.
 
-**Ziel:** Sensibilisierung für das Tracking durch mobile Endgeräte.  
+- **Ziel:** Sensibilisierung für das Tracking durch mobile Endgeräte.  
 
-**Werkzeuge:** eigenes Smartphone, Google Maps oder Apple Einstellungen
+- **Werkzeuge:** eigenes Smartphone, Google Maps oder Apple Einstellungen
 
 
 
 ### Zensur umgehen & freies Internet nutzen:
 Mit dem Tor-Browser wird gezeigt, wie sich Internetzensur technisch umgehen lässt. Zusätzlich wird demonstriert, wie Netzsperren durch alternative DNS-Server ausgehebelt werden können. Die Unterschiede beider Ansätze werden gemeinsam reflektiert.
 
-**Ziel:** Die Teilnehmenden lernen, wie sie Internetzensur umgehen können.
+- **Ziel:** Die Teilnehmenden lernen, wie sie Internetzensur umgehen können.
 
-**Werkzeuge:** Tor Browser, DNS-Änderung (z. B. Google, Cloudflare)
+- **Werkzeuge:** Tor Browser, DNS-Änderung (z. B. Google, Cloudflare)
 
 
 ## Challenges: 4 Missionen, 4 Packungen Schnitten, null Unterstützung – Let's hack!
