@@ -53,11 +53,11 @@ Die VM ist weit mehr als nur ein technisches Mittel – sie ist das Herzstück d
 
 - Voraussetzungen:
   - **Windows-Hypervisor-Plattform aktivieren**  
-    Öffne PowerShell **als Administrator** und führe aus:
+    Öffne die PowerShell **als Administrator** und führe aus:
     ```powershell
     dism.exe /Online /Enable-Feature /FeatureName:HypervisorPlatform /All /NoRestart
     ```
-    Danach PC neu starten.
+    Danach den PC neu starten.
 
 #### Linux
 
@@ -100,7 +100,7 @@ Die VM ist weit mehr als nur ein technisches Mittel – sie ist das Herzstück d
    git clone https://github.com/sheepfreak221/IT-Workshop
    ```
 4. **Aufgaben öffnen**
-    In der VM befindet sich jetzt eine Ordnerstruktur mit Beschreibungen & Anleitungen für jede Hands-on-Station.
+    In der VM befindet sich jetzt eine Ordnerstruktur mit Materialien & Anleitungen für jede Hands-on-Station.
 
 ### Was ist drinnen?
 
@@ -119,6 +119,58 @@ In der VM befinden sich folgende Programme – alle Open Source, datenschutzfreu
 ### VM Screenshot
 
 ![Screenshot der VM unter Windows 10 Professional](https://raw.githubusercontent.com/sheepfreak221/IT-Workshop/refs/heads/main/Ressourcen/VM_in_Aktion.PNG)
+
+### Benutzer und Passwörter für die VM
+
+| Benutzer   | Passwort  |
+|------------|-----------|
+| userI     | workshop  |
+| root       | workshop  |
+
+#### Benutzer und Passwörter ändern
+
+Um die Benutzer und Passwörter bei Bedarf zu ändern, können die folgenden Schritte ausgeführt werden:
+
+1. **Benutzerpasswort ändern:**
+   - Als der Benutzer anmelden, dessen Passwort geändert werden soll, oder als root.
+   - Den Befehl verwenden:
+     ```bash
+     passwd <benutzername>
+     ```
+   - Den Anweisungen folgen, um ein neues Passwort einzugeben.
+
+2. **Neuen Benutzer hinzufügen:**
+   - Als root anmelden.
+   - Den Befehl verwenden:
+     ```bash
+     adduser <neuer_benutzername>
+     ```
+   - Den Anweisungen folgen, um das Passwort und andere Informationen einzugeben.
+
+3. **Benutzer löschen:**
+   - Als root anmelden.
+   - Den Befehl verwenden:
+     ```bash
+     deluser <benutzername>
+     ```
+
+#### Sudoers-Datei
+
+Um sicherzustellen, dass der neue Benutzer Sudo-Rechte hat, kann er in die Sudoers-Datei eingetragen werden:
+
+1. Als root anmelden.
+2. Die Sudoers-Datei mit `nano` öffnen:
+   ```bash
+   nano /etc/sudoers
+  ```
+    Die folgende Zeile hinzufügen, um dem neuen Benutzer Sudo-Rechte zu gewähren:
+  
+  ```bash
+    <neuer_benutzername> ALL=(ALL) ALL
+  ```
+  Die Datei speichern und den Editor verlassen.
+
+Jetzt hat der neue Benutzer Sudo-Rechte.
 <!--
 ## Hands-on-Übungen:
 
