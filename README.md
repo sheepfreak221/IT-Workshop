@@ -11,6 +11,7 @@ Ziel ist es, Open Source & digitale Selbstbestimmung nicht nur zu erklären, son
 - **Ressourcen/** → Zusätzliche Materialien 
 - **Beispiele/** → Einfache Code-Beispiele für HTML, CSS und JavaScript
 - **Hands-on/** → Materialien für die Hands-on-Aufgaben bzw. Challenges 
+- **Zusatz/** → vertiefende Materialien zu den Themen
 - **links.md** → Nützliche Links und Ressourcen
 
 ## Workshop-Ablauf:
