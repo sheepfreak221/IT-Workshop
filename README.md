@@ -75,14 +75,6 @@ Die VM ist weit mehr als nur ein technisches Mittel – sie ist das Herzstück d
 
 
 #### Windows
- - Öffne PowerShell und gib folgenden Befehl ein:
-
-```powershell
-Get-CimInstance -ClassName Win32_Processor | Select-Object Name, VirtualizationFirmwareEnabled
-```
-
-Wenn VirtualizationFirmwareEnabled auf True steht, ist VT-x/AMD-V im BIOS aktiviert.
-
 
 
 - Unterstützte Windows-Versionen:
@@ -90,6 +82,15 @@ Wenn VirtualizationFirmwareEnabled auf True steht, ist VT-x/AMD-V im BIOS aktivi
     _(Windows Home wird **nicht** unterstützt, da WHPX nicht verfügbar ist)_
 
 - Voraussetzungen:
+
+  - **Prüfen ob VT-x / AMD-V aktiviert ist**
+   - Öffne PowerShell und gib folgenden Befehl ein:
+
+    ```powershell
+    Get-CimInstance -ClassName Win32_Processor | Select-Object Name, VirtualizationFirmwareEnabled
+    ```
+    Wenn VirtualizationFirmwareEnabled auf True steht, ist VT-x/AMD-V im BIOS aktiviert.
+
   - **Windows-Hypervisor-Plattform aktivieren**  
     Öffne die PowerShell **als Administrator** und führe aus:
     ```powershell
