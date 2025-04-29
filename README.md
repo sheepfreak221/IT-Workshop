@@ -1,8 +1,36 @@
 # IT-Workshop: Spieleprogrammierung und Open Source/Datenschutz
-
+<!--
 **Ein praktischer Workshop für Jugendliche – mit Linux-VM, echten Tools und viel Raum zum Selberdenken.**  
-Ziel ist es, Open Source & digitale Selbstbestimmung nicht nur zu erklären, sondern **selbst erlebbar zu machen**.
+Ziel ist es, Open Source & digitale Selbstbestimmung nicht nur zu erklären, sondern **selbst erlebbar zu machen**.-->
+## Beschreibung
 
+In diesem praxisorientierten Workshop lernen Jugendliche spielerisch, wie sie ihre Daten schützen und verantwortungsvoll mit digitalen Werkzeugen umgehen können.
+Im Mittelpunkt stehen freie und offene Softwarelösungen (FOSS), praktische Datenschutztechniken sowie ein kreativer Zugang zu Künstlicher Intelligenz.
+
+Alle Inhalte sind handlungsorientiert aufgebaut: Die Teilnehmenden arbeiten aktiv mit, probieren selbst aus, und erleben durch kleine Challenges motivierende Erfolgsmomente.
+Der Workshop berücksichtigt unterschiedliche Lernniveaus: Während grundlegende Übungen gemeinsam erarbeitet werden, bieten freiwillige Zusatzchallenges Raum für individuelle Vertiefung – z. B. das Entfernen von Bildmetadaten mit Bash-Skripten.
+
+Begleitet wird der Workshop von einer betreuten Lernumgebung, in der auch Einsteiger direkt Ergebnisse erzielen können. Für besonders motivierte Teilnehmende stehen zusätzliche Aufgaben bereit, die selbstständig – z. B. mit Hilfe von Tools wie Duck.AI – gelöst werden können.
+
+Ziele:
+
+  - Sensibilisierung für Datenschutz und digitale Selbstbestimmung
+
+  - Förderung von Medienkompetenz durch Anwendung freier Software
+
+  - Stärkung eigenständigen Denkens und Problemlösefähigkeit
+
+  - Niedrigschwelliger Einstieg in KI und technische Kreativität
+
+## Didaktisches Konzept
+
+Der Workshop folgt einem handlungsorientierten und differenzierten Lernansatz. Anstatt nur zuzuhören, arbeiten die Teilnehmenden aktiv mit: Sie probieren Werkzeuge selbst aus, bearbeiten kleine Aufgaben und erleben digitale Selbstbestimmung unmittelbar.
+
+Die Übungen sind so gestaltet, dass sie für Einsteiger leicht zugänglich sind (z. B. durch Copy-Paste oder gemeinsame Durchführung). Gleichzeitig bieten freiwillige Challenges die Möglichkeit, das Wissen zu vertiefen und sich eigenständig weiterzuentwickeln.
+
+Dabei wird bewusst auf klassische Frontalvermittlung verzichtet – stattdessen stehen Neugier, Selbstwirksamkeit und individuelle Lernerfolge im Fokus. Freie Tools wie Duck.AI helfen den Teilnehmenden dabei, sich eigene Lösungen zu erarbeiten – so werden Problemlösefähigkeit, Medienkompetenz und technisches Selbstvertrauen gefördert.
+
+Das Konzept orientiert sich am Prinzip „Lernen durch Tun“ – ganz im Sinne eines modernen, emanzipatorischen Bildungsverständnisses.
 
 ## Inhalt:
 
