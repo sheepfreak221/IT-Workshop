@@ -84,7 +84,7 @@ Die VM ist weit mehr als nur ein technisches Mittel – sie ist das Herzstück d
 - **Voraussetzungen:**
 
   - **Prüfen, ob VT-x/AMD-V aktiviert ist**
-    - Öffne PowerShell und gib folgenden Befehl ein:
+    - Öffne die PowerShell und gib folgenden Befehl ein:
       ```powershell
       Get-CimInstance -ClassName Win32_Processor | Select-Object Name, VirtualizationFirmwareEnabled
       ```
