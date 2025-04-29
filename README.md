@@ -77,31 +77,32 @@ Die VM ist weit mehr als nur ein technisches Mittel – sie ist das Herzstück d
 #### Windows
 
 
-- Unterstützte Windows-Versionen:
+- **Unterstützte Windows-Versionen:**
   - **Windows 10/11 Pro, Education oder Enterprise**  
     _(Windows Home wird **nicht** unterstützt, da WHPX nicht verfügbar ist)_
 
-- Voraussetzungen:
+- **Voraussetzungen:**
 
-  - **Prüfen ob VT-x/AMD-V aktiviert ist**
-   - Öffne PowerShell und gib folgenden Befehl ein:
-     ```powershell
-     Get-CimInstance -ClassName Win32_Processor | Select-Object Name, VirtualizationFirmwareEnabled
-     ```
-  - Wenn VirtualizationFirmwareEnabled auf True steht, ist VT-x/AMD-V im BIOS aktiviert.
+  - **Prüfen, ob VT-x/AMD-V aktiviert ist**
+    - Öffne PowerShell und gib folgenden Befehl ein:
+      ```powershell
+      Get-CimInstance -ClassName Win32_Processor | Select-Object Name, VirtualizationFirmwareEnabled
+      ```
+    - Wenn `VirtualizationFirmwareEnabled` auf `True` steht, ist VT-x/AMD-V im BIOS aktiviert.
 
-  - **Prüfen ob Hyper-V bzw. WHPX aktiviert ist**
+  - **Prüfen, ob Hyper-V bzw. WHPX aktiviert ist**
     - Öffne die PowerShell und gib folgenden Befehl ein:
-    ```powershell
-    Get-WindowsOptionalFeature -Online | Where-Object FeatureName -Match 'Hyper-V|HypervisorPlatform'
-    ```
-    - Wenn der Status Enabled ist, sind Hyper-V bzw. WHPX aktiv.
-  - **Windows-Hypervisor-Plattform aktivieren**  
-   - Öffne die PowerShell **als Administrator** und führe aus:
-     ```powershell
-     dism.exe /Online /Enable-Feature /FeatureName:HypervisorPlatform /All /NoRestart
-     ```
-   - Danach den PC neu starten.
+      ```powershell
+      Get-WindowsOptionalFeature -Online | Where-Object FeatureName -Match 'Hyper-V|HypervisorPlatform'
+      ```
+    - Wenn der Status `Enabled` ist, sind Hyper-V bzw. WHPX aktiv.
+
+  - **Windows-Hypervisor-Plattform aktivieren**
+    - Öffne die PowerShell **als Administrator** und führe aus:
+      ```powershell
+      dism.exe /Online /Enable-Feature /FeatureName:HypervisorPlatform /All /NoRestart
+      ```
+    - Danach den PC neu starten.
 
 #### Linux
 
