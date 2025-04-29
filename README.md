@@ -75,6 +75,15 @@ Die VM ist weit mehr als nur ein technisches Mittel – sie ist das Herzstück d
 
 
 #### Windows
+ - Öffne PowerShell und gib folgenden Befehl ein:
+
+```powershell
+Get-CimInstance -ClassName Win32_Processor | Select-Object Name, VirtualizationFirmwareEnabled
+```
+
+Wenn VirtualizationFirmwareEnabled auf True steht, ist VT-x/AMD-V im BIOS aktiviert.
+
+
 
 - Unterstützte Windows-Versionen:
   - **Windows 10/11 Pro, Education oder Enterprise**  
