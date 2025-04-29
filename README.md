@@ -30,7 +30,7 @@ Die Übungen sind so gestaltet, dass sie für Einsteiger leicht zugänglich sind
 
 Dabei wird bewusst auf klassische Frontalvermittlung verzichtet – stattdessen stehen Neugier, Selbstwirksamkeit und individuelle Lernerfolge im Fokus. Freie Tools wie Duck.AI helfen den Teilnehmenden dabei, sich eigene Lösungen zu erarbeiten – so werden Problemlösefähigkeit, Medienkompetenz und technisches Selbstvertrauen gefördert.
 
-Das Konzept orientiert sich am Prinzip „Lernen durch Tun“ – ganz im Sinne eines modernen, emanzipatorischen Bildungsverständnisses.
+Das Konzept orientiert sich am Prinzip "Learning by Doing" – ganz im Sinne eines modernen, emanzipatorischen Bildungsverständnisses.
 
 ## Inhalt:
 
