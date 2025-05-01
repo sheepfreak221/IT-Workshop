@@ -394,8 +394,13 @@ Nach einer kurzen Einführung testen die Teilnehmenden fünf KI-Modelle (BLIP, D
 
 - **Zusatz:** Das Rickroll-Meme, das im äußeren Container versteckt werden soll, wird selbst über das Terminal von YouTube heruntergeladen!
 
+### Abschluss-Challenge: Steganographie
+
+- **Ziel** Die Teilnehmenden bauen Steghide aus dem Quellcode und verstecken die KeePass-Datenbank in einem Bild. Die versteckte Datenbank muss mit dem korrekten Passwort wiederherstellbar sein.
+
 ### Belohnung:
 **Eine Packung Manner Schnitten** warten auf die Sieger der einzelnen Challenges!
+**Für die Abschlusschallenge** erwartet die Sieger ein besonderer Preis! 
 
 ### Regeln:
 - Keine direkte Hilfe von uns!
