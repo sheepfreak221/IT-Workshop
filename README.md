@@ -400,6 +400,7 @@ Nach einer kurzen Einführung testen die Teilnehmenden fünf KI-Modelle (BLIP, D
 
 ### Belohnung:
 **Eine Packung Manner Schnitten** warten auf die Sieger der einzelnen Challenges!
+
 **Für die Abschlusschallenge** erwartet die Sieger ein besonderer Preis! 
 
 ### Regeln:
