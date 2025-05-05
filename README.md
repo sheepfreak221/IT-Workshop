@@ -63,7 +63,7 @@ Das Konzept orientiert sich am Prinzip "Learning by Doing" – ganz im Sinne ein
 
 ## Die Arbeitsumgebung (VM)
 
-Die VM basiert auf **Debian (Bookworm)** und verwendet die Desktopumgebung **LXQt** für eine einfache, ressourcenschonende Benutzeroberfläche.  
+Die VM basiert auf **Debian (Bookworm)** und verwendet die Desktopumgebung **XFCE**, die eine ansprechende und einsteigerfreundliche Benutzeroberfläche bei gleichzeitig niedrigem Ressourcenverbrauch bietet.  
 Sie ist eine **amd64-VM**, die auf **QEMU** basiert und schnell auf fast jedem modernen Rechner laufen sollte – vorausgesetzt, Virtualisierung ist verfügbar und korrekt eingerichtet.
 
 Die VM ist weit mehr als nur ein technisches Mittel – sie ist das Herzstück des Workshop-Konzepts. Sie bietet eine einheitliche, abgeschottete Umgebung, in der alle Jugendlichen mit exakt der gleichen, stabilen Konfiguration arbeiten. Das verhindert nicht nur typische „es-geht-bei-mir-nicht“-Probleme, sondern vermittelt ganz nebenbei echte IT-Kompetenzen: Umgang mit einem vollwertigen Linux-System, Terminal-Nutzung, Dateistrukturen verstehen – und das alles hands-on, statt nur in der Theorie.
@@ -163,7 +163,7 @@ In der VM befinden sich folgende Programme – alle Open Source, datenschutzfreu
 
 ### VM Screenshot
 
-![Screenshot der VM unter Windows 10 Professional](https://raw.githubusercontent.com/sheepfreak221/IT-Workshop/refs/heads/main/Ressourcen/VM_in_Aktion.PNG)
+![Screenshot der VM unter Windows 10 Professional](https://raw.githubusercontent.com/sheepfreak221/IT-Workshop/refs/heads/main/Ressourcen/VM_neu.png)
 
 ### Benutzer und Passwörter für die VM
 
