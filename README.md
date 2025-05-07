@@ -32,6 +32,12 @@ Dabei wird bewusst auf klassische Frontalvermittlung verzichtet – stattdessen 
 
 Das Konzept orientiert sich am Prinzip "Learning by Doing" – ganz im Sinne eines modernen, emanzipatorischen Bildungsverständnisses.
 
+## Didaktische Begründung für den Vorlesungsstil der Präsentation
+
+Wir haben uns bewusst gegen ein vereinfachtes Schulformat und für ein akademisch strukturiertes Vorlesungsdesign entschieden, um den Teilnehmenden eine ernsthafte, respektvolle und motivierende Lernumgebung zu bieten.
+
+Die Präsentation im Stil einer universitären Vorlesung funktioniert aus mehreren Gründen besonders gut: Sie begegnet den Jugendlichen auf Augenhöhe und vermittelt ihnen das Gefühl, ernst genommen zu werden – nicht als Schüler, sondern als mündige, denkende Menschen. Die hohe Informationsdichte erzeugt dabei keinen Frontalunterricht, sondern schafft Struktur und Orientierung für die praktischen Teile des Workshops. Durch die klare Gliederung in thematische Blöcke können Inhalte gezielt nachgeschlagen und später vertieft werden, was den langfristigen Lernerfolg fördert. Die Folien sind nicht zur passiven Rezeption gedacht, sondern dienen als begleitendes Toolset für Hands-on-Phasen, in denen Theorie und Praxis direkt miteinander verknüpft werden – etwa bei der Analyse von Metadaten oder der Arbeit mit VeraCrypt. Das universitäre Branding der Folien steigert zusätzlich die Motivation: Viele Jugendliche empfinden es als Auszeichnung, mit „echten“ Materialien zu arbeiten, und gewinnen so ein erstes Gefühl für akademische Arbeitsweisen. Gleichzeitig vermittelt das Format nicht nur Inhalte, sondern auch eine Vorstellung davon, wie Lernen an einer Hochschule funktioniert – ein wertvoller Impuls für ihre weitere Bildungsbiografie.
+
 ## Inhalt:
 
 - **Folien/** → Präsentationsfolien (.pdf)
