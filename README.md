@@ -141,7 +141,7 @@ Die VM ist weit mehr als nur ein technisches Mittel – sie ist das Herzstück d
 ### Schnellstart (Windows)
 
 1. **Die VM herunterladen**  
-   [Download-Link (MEGA)](https://mega.nz/folder/0EQ2RSzT#Ie8U7hp3knUAkGeIW2k5sA)
+   [Download-Link (MEGA)](https://mega.nz/folder/wcAwFTRK#aaWAY7xgOBt5T7yjR5sGMA)
 
 2. **Linux-VM starten**  
    Doppelklick auf die `start-vm.bat` → Die VM bootet automatisch in das vorbereitete Linux-System.
