@@ -249,33 +249,6 @@ Einen versteckten Container erstellen und darin eine KeePass-Datenbank ablegen. 
 Facebook-Chat in Pidgin mit OTR verschlüsseln. Was funktioniert? Was nicht? Und warum?
 -->
 
-### Warum QEMU?
-
-QEMU bietet mehrere Vorteile für Virtualisierungsaufgaben, insbesondere im Vergleich zu VirtualBox und VMware. Die wichtigsten Vorteile für den Einsatz im Workshop sind:
-
-#### 1. **Weniger Overhead**
-QEMU benötigt keinen zusätzlichen Hypervisor wie VirtualBox oder VMware, da es direkt den Hypervisor des Hosts verwendet (z.B. Hyper-V unter Windows, KVM unter Linux und Hypervisor.framework unter macOS). Dadurch wird der Overhead minimiert, was zu einer effizienteren Nutzung der Systemressourcen führt.
-
-#### 2. **Flexibilität bei der CPU-Emulation**
-Ein herausragender Vorteil von QEMU ist die Möglichkeit, die CPU zu emulieren. Dies bedeutet, dass keine Hardware-Virtualisierung benötigt wird. QEMU kann sogar AMD64-basierte VMs auf Geräten mit Apple Silicon (ARM-Architektur) ausführen. Dies ermöglicht eine breitere Nutzung auf verschiedenen Plattformen, auch wenn die Hardware des Hosts keine vollständige Virtualisierung unterstützt. Allerdings kann diese Emulation sehr langsam sein, insbesondere bei komplexeren Prozessen oder rechenintensiven Aufgaben.
-
-#### 3. **Leichtere Einrichtung und weniger Ressourcenverbrauch**
-Im Vergleich zu VirtualBox oder VMware benötigt QEMU keine zusätzlichen Tools oder umfangreiche Setups. Es ist ressourcenschonend und bietet dennoch eine leistungsstarke Virtualisierungslösung.
-
-#### 4. **VirtIO-Treiber für optimierte I/O-Performance**
-QEMU unterstützt die VirtIO-Treiber, die die I/O-Performance von VMs erheblich verbessern, insbesondere für Netzwerkkarten und Festplatten. Diese Treiber reduzieren den Emulationsaufwand und sorgen für eine schnellere Datenübertragung im Vergleich zu den Standardtreibern von VirtualBox oder VMware.
-
-#### 5. **Offene und flexible Konfiguration**
-QEMU bietet eine hohe Flexibilität bei der Konfiguration von VMs. Es ermöglicht eine genauere Anpassung der virtuellen Maschinen, z.B. durch die Zuweisung von Ressourcen und die Auswahl von verschiedenen Emulationsmodi.
-
-#### 6. **Niedrigerer Systemaufwand**
-Da QEMU keine zusätzliche Virtualisierungssoftware benötigt, ist der Systemaufwand insgesamt niedriger als bei VirtualBox oder VMware, was insbesondere auf weniger leistungsstarken Hosts von Vorteil ist.
-
-#### Fazit
-QEMU stellt eine performante, flexible und ressourcenschonende Lösung dar, die besonders für virtuelle Umgebungen im Workshop vorteilhaft ist. Im Vergleich zu VirtualBox und VMware bietet es eine schnellere Einrichtung, bessere Leistung und erweiterte Kompatibilität durch die CPU-Emulation ohne Hardware-Virtualisierung.
-
-
-
 ## Übersicht der praktischen Hands-on-Übungen
 
 ### Einstieg: GitHub-Repository klonen
@@ -423,6 +396,33 @@ Nach einer kurzen Einführung testen die Teilnehmenden fünf KI-Modelle (BLIP, D
 - Schulen, Jugendzentren, Hacking Spaces
 
 ---
+
+### Warum QEMU?
+
+QEMU bietet mehrere Vorteile für Virtualisierungsaufgaben, insbesondere im Vergleich zu VirtualBox und VMware. Die wichtigsten Vorteile für den Einsatz im Workshop sind:
+
+#### 1. **Weniger Overhead**
+QEMU benötigt keinen zusätzlichen Hypervisor wie VirtualBox oder VMware, da es direkt den Hypervisor des Hosts verwendet (z.B. Hyper-V unter Windows, KVM unter Linux und Hypervisor.framework unter macOS). Dadurch wird der Overhead minimiert, was zu einer effizienteren Nutzung der Systemressourcen führt.
+
+#### 2. **Flexibilität bei der CPU-Emulation**
+Ein herausragender Vorteil von QEMU ist die Möglichkeit, die CPU zu emulieren. Dies bedeutet, dass keine Hardware-Virtualisierung benötigt wird. QEMU kann sogar AMD64-basierte VMs auf Geräten mit Apple Silicon (ARM-Architektur) ausführen. Dies ermöglicht eine breitere Nutzung auf verschiedenen Plattformen, auch wenn die Hardware des Hosts keine vollständige Virtualisierung unterstützt. Allerdings kann diese Emulation sehr langsam sein, insbesondere bei komplexeren Prozessen oder rechenintensiven Aufgaben.
+
+#### 3. **Leichtere Einrichtung und weniger Ressourcenverbrauch**
+Im Vergleich zu VirtualBox oder VMware benötigt QEMU keine zusätzlichen Tools oder umfangreiche Setups. Es ist ressourcenschonend und bietet dennoch eine leistungsstarke Virtualisierungslösung.
+
+#### 4. **VirtIO-Treiber für optimierte I/O-Performance**
+QEMU unterstützt die VirtIO-Treiber, die die I/O-Performance von VMs erheblich verbessern, insbesondere für Netzwerkkarten und Festplatten. Diese Treiber reduzieren den Emulationsaufwand und sorgen für eine schnellere Datenübertragung im Vergleich zu den Standardtreibern von VirtualBox oder VMware.
+
+#### 5. **Offene und flexible Konfiguration**
+QEMU bietet eine hohe Flexibilität bei der Konfiguration von VMs. Es ermöglicht eine genauere Anpassung der virtuellen Maschinen, z.B. durch die Zuweisung von Ressourcen und die Auswahl von verschiedenen Emulationsmodi.
+
+#### 6. **Niedrigerer Systemaufwand**
+Da QEMU keine zusätzliche Virtualisierungssoftware benötigt, ist der Systemaufwand insgesamt niedriger als bei VirtualBox oder VMware, was insbesondere auf weniger leistungsstarken Hosts von Vorteil ist.
+
+#### Fazit
+QEMU stellt eine performante, flexible und ressourcenschonende Lösung dar, die besonders für virtuelle Umgebungen im Workshop vorteilhaft ist. Im Vergleich zu VirtualBox und VMware bietet es eine schnellere Einrichtung, bessere Leistung und erweiterte Kompatibilität durch die CPU-Emulation ohne Hardware-Virtualisierung.
+
+
 
 ## Motivation
 
