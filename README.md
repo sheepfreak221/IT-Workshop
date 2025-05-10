@@ -67,6 +67,286 @@ Die Präsentation im Stil einer universitären Vorlesung funktioniert aus mehrer
 3. **Hands-on:** Die Jugendlichen erstellen ihr eigenes Mini-Game mit der Hilfe von Duck.AI
 4. **Präsentation:** Sie zeigen ihr Spiel und teilen ihre Erfahrungen
 
+
+## Übersicht der praktischen Hands-on-Übungen
+
+### Einstieg: GitHub-Repository klonen
+
+Zum Start des Workshops wird gemeinsam über das Terminal ein vorbereitetes GitHub-Repository geklont, das alle Übungsdaten und Aufgaben enthält. Damit ist sichergestellt, dass alle Teilnehmenden sofort mit dem Arbeiten beginnen können.
+
+- **Ziel:** Zugriff auf alle benötigten Dateien und Skripte.  
+
+- **Werkzeuge:** Terminal, Git
+
+
+### EXIF-Daten und Geolokalisierung
+
+Die Teilnehmenden analysieren Fotos von öffentlichen Flickr-Profilen auf versteckte Metadaten wie GPS-Koordinaten. Falls vorhanden, wird der exakte Aufnahmeort über OpenStreetMap ermittelt. Diese Übung zeigt sehr anschaulich, wie viele private Informationen unbemerkt in Bildern enthalten sein können.
+
+- **Ziel:** Sensibilisierung für Metadaten in digitalen Bildern.  
+
+- **Werkzeuge:** Terminal, `exiftool`, Firefox, OpenStreetMap
+
+
+### Passwortsicherheit analysieren
+
+Nach einem kurzen Theorieteil zum Thema Passwortstärke wird überprüft, wie sicher „sichere“ Passwörter in der Praxis tatsächlich sind. Die Teilnehmenden versuchen, eine verschlüsselte PDF-Datei zu knacken, um ein realistisches Gefühl für Passwortsicherheit zu entwickeln.
+
+- **Ziel:** Kritisches Hinterfragen von Passwortsicherheit und besseres Verständnis für Angriffsmethoden. 
+
+- **Werkzeuge:** Terminal, Python, John the Ripper, verschlüsselte Beispiel-Datei
+
+
+### Passwortverwaltung mit KeePassXC
+
+Es wird gezeigt, wie man mit einem Passwortmanager wie KeePassXC starke Passwörter erzeugt, speichert und sicher verwaltet. Dabei wird erläutert, warum Merkbarkeit nicht immer gleich Sicherheit bedeutet.
+
+- **Ziel:** Einführung in sichere Passwortstrategien und praktische Nutzung eines Passwortmanagers.  
+
+- **Werkzeuge:** KeePassXC
+
+
+### Tracker erkennen und blockieren
+
+Anhand realer Webseiten wird demonstriert, wie viele Tracker aktiv sind und wie man sie identifizieren und blockieren kann. Dabei kommt uBlock Origin zum Einsatz, ein Tool, das viele bereits aus dem Alltag kennen, aber selten in seiner ganzen Funktionalität nutzen.
+
+- **Ziel:** Erkennen und Blockieren von Tracking-Technologien zur Verbesserung des Datenschutzes. 
+
+- **Werkzeuge:** Firefox, uBlock Origin, Browser-Entwicklertools
+
+
+### Verschlüsselte Container mit VeraCrypt
+
+ Die Teilnehmenden lernen, wie man mit VeraCrypt verschlüsselte Container erstellt und darin sensible Daten sicher speichert. Im praktischen Beispiel wird eine KeePass-Datenbank in einem verschlüsselten Container abgelegt.
+
+- **Ziel:** Verständnis für Verschlüsselung und digitale Tarnung.  
+
+- **Werkzeuge:** VeraCrypt
+
+
+### Messenger verschlüsseln mit OTR
+
+Es wird gezeigt, wie sich klassische Messenger wie Facebook Chat in Pidgin einbinden lassen und wie man über das OTR-Protokoll (Off-the-Record Messaging) verschlüsselte Kommunikation aufbauen kann. Dabei werden auch die Grenzen dieser Technik diskutiert.
+
+- **Ziel:** Praktische Einführung in verschlüsselte Kommunikation.  
+
+- **Werkzeuge:** Pidgin, purple-facebook, OTR-Plugin
+
+
+### Fake News erkennen und enttarnen
+
+Zwei kurze TikTok-Videos, die bewusst falsche Informationen verbreiten, werden analysiert. Zunächst wird demonstriert, wie aus einem Video mit Tools wie `mpv` und GIMP einzelne Frames extrahiert werden. Anschließend nutzen die Teilnehmenden Rückwärtssuchen wie Google Bilder und TinEye, um die tatsächliche Herkunft der verwendeten Bilder zu ermitteln.
+
+- **Ziel:** Kritisches Denken schulen und Recherchetechniken gegen Desinformation anwenden.  
+
+- **Werkzeuge:** mpv, GIMP, Firefox, Google Bildersuche, TinEye
+
+
+### Der digitale Fußabdruck
+
+Die Teilnehmenden sehen sich an, welche Bewegungsdaten von ihren Smartphones aufgezeichnet wurden – sowohl über die Google Maps Timeline als auch über Apples Standortverlauf. Diese Übung führt meist zu einem Aha-Effekt, da viele nicht wissen, wie genau ihre Wege gespeichert werden.
+
+- **Ziel:** Sensibilisierung für das Tracking durch mobile Endgeräte.  
+
+- **Werkzeuge:** eigenes Smartphone, Google Maps oder Apple Einstellungen
+
+### Zensur umgehen & freies Internet nutzen:
+Mit dem Tor-Browser wird gezeigt, wie sich Internetzensur technisch umgehen lässt. Zusätzlich wird demonstriert, wie Netzsperren durch alternative DNS-Server ausgehebelt werden können. Die Unterschiede beider Ansätze werden gemeinsam reflektiert.
+
+- **Ziel:** Die Teilnehmenden lernen, wie sie Internetzensur umgehen können.
+
+- **Werkzeuge:** Tor Browser, DNS-Änderung (z. B. Google, Cloudflare)
+
+### KI-Modelle erforschen:
+
+Nach einer kurzen Einführung testen die Teilnehmenden fünf KI-Modelle (BLIP, DistilBERT, GPT-2, EasyOCR, Real-ESRGAN) direkt über eine Weboberfläche. Dabei können sie kreativ werden und die Fähigkeiten der Modelle ausprobieren.
+
+- **Ziel:** Verständnis für verschiedene KI-Anwendungen entwickeln und eigene Eindrücke sammeln.
+
+- **Werkzeuge:** Firefox
+
+
+## Challenges: 4 Missionen, 4 Packungen Schnitten, null Unterstützung – Let's hack!
+
+### 1. VM-Check Challenge (Hidden!!!)
+
+- **Ziel:** Wer zuerst checkt, dass er in einer VM ist, gewinnt!
+
+- **Hinweis:** Wenn sie kommen sind die VMs bereits gestartet und laufen im Vollbildmodus! Diese Challenge wird auch nicht erwähnt!
+
+### 2. EXIF-Daten Stripping Challenge
+
+- **Ziel:** Als erster alle Metadaten aus einem Bild entfernen!
+
+- **Zusatz:** Ein Bash-Skript erstellen, das alle Bilder im aktuellen Verzeichnis strippt!
+
+### 3. Zip-Archiv Knacken Challenge
+
+- **Ziel:** Als erster das verschlüsselte Zip-Archiv knacken!
+
+- **Zusatz:** Das Passwort aus der PDF-Datei entfernen!
+
+### 4. VeraCrypt-Verstecken Challenge
+
+- **Ziel:** Einen versteckten VeraCrypt-Container in einem Video verstecken, wobei der äußere Container ein harmloses Rickroll-Meme enthält und das versteckte Volume eine KeePass-Datenbank mit sensiblen Daten beherbergt.
+
+- **Zusatz:** Das Rickroll-Meme, das im äußeren Container versteckt werden soll, wird selbst über das Terminal von YouTube heruntergeladen!
+
+### Abschluss-Challenge: Steganographie
+
+- **Ziel** Die Teilnehmenden bauen Steghide aus dem Quellcode und verstecken die KeePass-Datenbank in einem Bild. Die versteckte Datenbank muss mit dem korrekten Passwort wiederherstellbar sein.
+
+### Belohnung:
+**Eine Packung Manner Schnitten** warten auf die Sieger der einzelnen Challenges!
+
+**Für die Abschlusschallenge** erwartet die Sieger ein besonderer Preis! 
+
+### Regeln:
+- Keine direkte Hilfe von uns!
+- Nur Duck.ai zur Unterstützung erlaubt!
+- Die benötigten Programme sind teilweise **nicht installiert** und müssen von den Jugendlichen selbst über `apt` installiert werden! 
+
+---## Übersicht der praktischen Hands-on-Übungen
+
+### Einstieg: GitHub-Repository klonen
+
+Zum Start des Workshops wird gemeinsam über das Terminal ein vorbereitetes GitHub-Repository geklont, das alle Übungsdaten und Aufgaben enthält. Damit ist sichergestellt, dass alle Teilnehmenden sofort mit dem Arbeiten beginnen können.
+
+- **Ziel:** Zugriff auf alle benötigten Dateien und Skripte.  
+
+- **Werkzeuge:** Terminal, Git
+
+
+### EXIF-Daten und Geolokalisierung
+
+Die Teilnehmenden analysieren Fotos von öffentlichen Flickr-Profilen auf versteckte Metadaten wie GPS-Koordinaten. Falls vorhanden, wird der exakte Aufnahmeort über OpenStreetMap ermittelt. Diese Übung zeigt sehr anschaulich, wie viele private Informationen unbemerkt in Bildern enthalten sein können.
+
+- **Ziel:** Sensibilisierung für Metadaten in digitalen Bildern.  
+
+- **Werkzeuge:** Terminal, `exiftool`, Firefox, OpenStreetMap
+
+
+### Passwortsicherheit analysieren
+
+Nach einem kurzen Theorieteil zum Thema Passwortstärke wird überprüft, wie sicher „sichere“ Passwörter in der Praxis tatsächlich sind. Die Teilnehmenden versuchen, eine verschlüsselte PDF-Datei zu knacken, um ein realistisches Gefühl für Passwortsicherheit zu entwickeln.
+
+- **Ziel:** Kritisches Hinterfragen von Passwortsicherheit und besseres Verständnis für Angriffsmethoden. 
+
+- **Werkzeuge:** Terminal, Python, John the Ripper, verschlüsselte Beispiel-Datei
+
+
+### Passwortverwaltung mit KeePassXC
+
+Es wird gezeigt, wie man mit einem Passwortmanager wie KeePassXC starke Passwörter erzeugt, speichert und sicher verwaltet. Dabei wird erläutert, warum Merkbarkeit nicht immer gleich Sicherheit bedeutet.
+
+- **Ziel:** Einführung in sichere Passwortstrategien und praktische Nutzung eines Passwortmanagers.  
+
+- **Werkzeuge:** KeePassXC
+
+
+### Tracker erkennen und blockieren
+
+Anhand realer Webseiten wird demonstriert, wie viele Tracker aktiv sind und wie man sie identifizieren und blockieren kann. Dabei kommt uBlock Origin zum Einsatz, ein Tool, das viele bereits aus dem Alltag kennen, aber selten in seiner ganzen Funktionalität nutzen.
+
+- **Ziel:** Erkennen und Blockieren von Tracking-Technologien zur Verbesserung des Datenschutzes. 
+
+- **Werkzeuge:** Firefox, uBlock Origin, Browser-Entwicklertools
+
+
+### Verschlüsselte Container mit VeraCrypt
+
+ Die Teilnehmenden lernen, wie man mit VeraCrypt verschlüsselte Container erstellt und darin sensible Daten sicher speichert. Im praktischen Beispiel wird eine KeePass-Datenbank in einem verschlüsselten Container abgelegt.
+
+- **Ziel:** Verständnis für Verschlüsselung und digitale Tarnung.  
+
+- **Werkzeuge:** VeraCrypt
+
+
+### Messenger verschlüsseln mit OTR
+
+Es wird gezeigt, wie sich klassische Messenger wie Facebook Chat in Pidgin einbinden lassen und wie man über das OTR-Protokoll (Off-the-Record Messaging) verschlüsselte Kommunikation aufbauen kann. Dabei werden auch die Grenzen dieser Technik diskutiert.
+
+- **Ziel:** Praktische Einführung in verschlüsselte Kommunikation.  
+
+- **Werkzeuge:** Pidgin, purple-facebook, OTR-Plugin
+
+
+### Fake News erkennen und enttarnen
+
+Zwei kurze TikTok-Videos, die bewusst falsche Informationen verbreiten, werden analysiert. Zunächst wird demonstriert, wie aus einem Video mit Tools wie `mpv` und GIMP einzelne Frames extrahiert werden. Anschließend nutzen die Teilnehmenden Rückwärtssuchen wie Google Bilder und TinEye, um die tatsächliche Herkunft der verwendeten Bilder zu ermitteln.
+
+- **Ziel:** Kritisches Denken schulen und Recherchetechniken gegen Desinformation anwenden.  
+
+- **Werkzeuge:** mpv, GIMP, Firefox, Google Bildersuche, TinEye
+
+
+### Der digitale Fußabdruck
+
+Die Teilnehmenden sehen sich an, welche Bewegungsdaten von ihren Smartphones aufgezeichnet wurden – sowohl über die Google Maps Timeline als auch über Apples Standortverlauf. Diese Übung führt meist zu einem Aha-Effekt, da viele nicht wissen, wie genau ihre Wege gespeichert werden.
+
+- **Ziel:** Sensibilisierung für das Tracking durch mobile Endgeräte.  
+
+- **Werkzeuge:** eigenes Smartphone, Google Maps oder Apple Einstellungen
+
+### Zensur umgehen & freies Internet nutzen:
+Mit dem Tor-Browser wird gezeigt, wie sich Internetzensur technisch umgehen lässt. Zusätzlich wird demonstriert, wie Netzsperren durch alternative DNS-Server ausgehebelt werden können. Die Unterschiede beider Ansätze werden gemeinsam reflektiert.
+
+- **Ziel:** Die Teilnehmenden lernen, wie sie Internetzensur umgehen können.
+
+- **Werkzeuge:** Tor Browser, DNS-Änderung (z. B. Google, Cloudflare)
+
+### KI-Modelle erforschen:
+
+Nach einer kurzen Einführung testen die Teilnehmenden fünf KI-Modelle (BLIP, DistilBERT, GPT-2, EasyOCR, Real-ESRGAN) direkt über eine Weboberfläche. Dabei können sie kreativ werden und die Fähigkeiten der Modelle ausprobieren.
+
+- **Ziel:** Verständnis für verschiedene KI-Anwendungen entwickeln und eigene Eindrücke sammeln.
+
+- **Werkzeuge:** Firefox
+
+
+## Challenges: 4 Missionen, 4 Packungen Schnitten, null Unterstützung – Let's hack!
+
+### 1. VM-Check Challenge (Hidden!!!)
+
+- **Ziel:** Wer zuerst checkt, dass er in einer VM ist, gewinnt!
+
+- **Hinweis:** Wenn sie kommen sind die VMs bereits gestartet und laufen im Vollbildmodus! Diese Challenge wird auch nicht erwähnt!
+
+### 2. EXIF-Daten Stripping Challenge
+
+- **Ziel:** Als erster alle Metadaten aus einem Bild entfernen!
+
+- **Zusatz:** Ein Bash-Skript erstellen, das alle Bilder im aktuellen Verzeichnis strippt!
+
+### 3. Zip-Archiv Knacken Challenge
+
+- **Ziel:** Als erster das verschlüsselte Zip-Archiv knacken!
+
+- **Zusatz:** Das Passwort aus der PDF-Datei entfernen!
+
+### 4. VeraCrypt-Verstecken Challenge
+
+- **Ziel:** Einen versteckten VeraCrypt-Container in einem Video verstecken, wobei der äußere Container ein harmloses Rickroll-Meme enthält und das versteckte Volume eine KeePass-Datenbank mit sensiblen Daten beherbergt.
+
+- **Zusatz:** Das Rickroll-Meme, das im äußeren Container versteckt werden soll, wird selbst über das Terminal von YouTube heruntergeladen!
+
+### Abschluss-Challenge: Steganographie
+
+- **Ziel** Die Teilnehmenden bauen Steghide aus dem Quellcode und verstecken die KeePass-Datenbank in einem Bild. Die versteckte Datenbank muss mit dem korrekten Passwort wiederherstellbar sein.
+
+### Belohnung:
+**Eine Packung Manner Schnitten** warten auf die Sieger der einzelnen Challenges!
+
+**Für die Abschlusschallenge** erwartet die Sieger ein besonderer Preis! 
+
+### Regeln:
+- Keine direkte Hilfe von uns!
+- Nur Duck.ai zur Unterstützung erlaubt!
+- Die benötigten Programme sind teilweise **nicht installiert** und müssen von den Jugendlichen selbst über `apt` installiert werden! 
+
+---
+
+
 ## Die Arbeitsumgebung (VM)
 
 Die VM basiert auf **Debian (Bookworm)** und verwendet die Desktopumgebung **XFCE**, die eine ansprechende und einsteigerfreundliche Benutzeroberfläche bei gleichzeitig niedrigem Ressourcenverbrauch bietet.  
@@ -249,145 +529,7 @@ Einen versteckten Container erstellen und darin eine KeePass-Datenbank ablegen. 
 Facebook-Chat in Pidgin mit OTR verschlüsseln. Was funktioniert? Was nicht? Und warum?
 -->
 
-## Übersicht der praktischen Hands-on-Übungen
 
-### Einstieg: GitHub-Repository klonen
-
-Zum Start des Workshops wird gemeinsam über das Terminal ein vorbereitetes GitHub-Repository geklont, das alle Übungsdaten und Aufgaben enthält. Damit ist sichergestellt, dass alle Teilnehmenden sofort mit dem Arbeiten beginnen können.
-
-- **Ziel:** Zugriff auf alle benötigten Dateien und Skripte.  
-
-- **Werkzeuge:** Terminal, Git
-
-
-### EXIF-Daten und Geolokalisierung
-
-Die Teilnehmenden analysieren Fotos von öffentlichen Flickr-Profilen auf versteckte Metadaten wie GPS-Koordinaten. Falls vorhanden, wird der exakte Aufnahmeort über OpenStreetMap ermittelt. Diese Übung zeigt sehr anschaulich, wie viele private Informationen unbemerkt in Bildern enthalten sein können.
-
-- **Ziel:** Sensibilisierung für Metadaten in digitalen Bildern.  
-
-- **Werkzeuge:** Terminal, `exiftool`, Firefox, OpenStreetMap
-
-
-### Passwortsicherheit analysieren
-
-Nach einem kurzen Theorieteil zum Thema Passwortstärke wird überprüft, wie sicher „sichere“ Passwörter in der Praxis tatsächlich sind. Die Teilnehmenden versuchen, eine verschlüsselte PDF-Datei zu knacken, um ein realistisches Gefühl für Passwortsicherheit zu entwickeln.
-
-- **Ziel:** Kritisches Hinterfragen von Passwortsicherheit und besseres Verständnis für Angriffsmethoden. 
-
-- **Werkzeuge:** Terminal, Python, John the Ripper, verschlüsselte Beispiel-Datei
-
-
-### Passwortverwaltung mit KeePassXC
-
-Es wird gezeigt, wie man mit einem Passwortmanager wie KeePassXC starke Passwörter erzeugt, speichert und sicher verwaltet. Dabei wird erläutert, warum Merkbarkeit nicht immer gleich Sicherheit bedeutet.
-
-- **Ziel:** Einführung in sichere Passwortstrategien und praktische Nutzung eines Passwortmanagers.  
-
-- **Werkzeuge:** KeePassXC
-
-
-### Tracker erkennen und blockieren
-
-Anhand realer Webseiten wird demonstriert, wie viele Tracker aktiv sind und wie man sie identifizieren und blockieren kann. Dabei kommt uBlock Origin zum Einsatz, ein Tool, das viele bereits aus dem Alltag kennen, aber selten in seiner ganzen Funktionalität nutzen.
-
-- **Ziel:** Erkennen und Blockieren von Tracking-Technologien zur Verbesserung des Datenschutzes. 
-
-- **Werkzeuge:** Firefox, uBlock Origin, Browser-Entwicklertools
-
-
-### Verschlüsselte Container mit VeraCrypt
-
- Die Teilnehmenden lernen, wie man mit VeraCrypt verschlüsselte Container erstellt und darin sensible Daten sicher speichert. Im praktischen Beispiel wird eine KeePass-Datenbank in einem verschlüsselten Container abgelegt.
-
-- **Ziel:** Verständnis für Verschlüsselung und digitale Tarnung.  
-
-- **Werkzeuge:** VeraCrypt
-
-
-### Messenger verschlüsseln mit OTR
-
-Es wird gezeigt, wie sich klassische Messenger wie Facebook Chat in Pidgin einbinden lassen und wie man über das OTR-Protokoll (Off-the-Record Messaging) verschlüsselte Kommunikation aufbauen kann. Dabei werden auch die Grenzen dieser Technik diskutiert.
-
-- **Ziel:** Praktische Einführung in verschlüsselte Kommunikation.  
-
-- **Werkzeuge:** Pidgin, purple-facebook, OTR-Plugin
-
-
-### Fake News erkennen und enttarnen
-
-Zwei kurze TikTok-Videos, die bewusst falsche Informationen verbreiten, werden analysiert. Zunächst wird demonstriert, wie aus einem Video mit Tools wie `mpv` und GIMP einzelne Frames extrahiert werden. Anschließend nutzen die Teilnehmenden Rückwärtssuchen wie Google Bilder und TinEye, um die tatsächliche Herkunft der verwendeten Bilder zu ermitteln.
-
-- **Ziel:** Kritisches Denken schulen und Recherchetechniken gegen Desinformation anwenden.  
-
-- **Werkzeuge:** mpv, GIMP, Firefox, Google Bildersuche, TinEye
-
-
-### Der digitale Fußabdruck
-
-Die Teilnehmenden sehen sich an, welche Bewegungsdaten von ihren Smartphones aufgezeichnet wurden – sowohl über die Google Maps Timeline als auch über Apples Standortverlauf. Diese Übung führt meist zu einem Aha-Effekt, da viele nicht wissen, wie genau ihre Wege gespeichert werden.
-
-- **Ziel:** Sensibilisierung für das Tracking durch mobile Endgeräte.  
-
-- **Werkzeuge:** eigenes Smartphone, Google Maps oder Apple Einstellungen
-
-### Zensur umgehen & freies Internet nutzen:
-Mit dem Tor-Browser wird gezeigt, wie sich Internetzensur technisch umgehen lässt. Zusätzlich wird demonstriert, wie Netzsperren durch alternative DNS-Server ausgehebelt werden können. Die Unterschiede beider Ansätze werden gemeinsam reflektiert.
-
-- **Ziel:** Die Teilnehmenden lernen, wie sie Internetzensur umgehen können.
-
-- **Werkzeuge:** Tor Browser, DNS-Änderung (z. B. Google, Cloudflare)
-
-### KI-Modelle erforschen:
-
-Nach einer kurzen Einführung testen die Teilnehmenden fünf KI-Modelle (BLIP, DistilBERT, GPT-2, EasyOCR, Real-ESRGAN) direkt über eine Weboberfläche. Dabei können sie kreativ werden und die Fähigkeiten der Modelle ausprobieren.
-
-- **Ziel:** Verständnis für verschiedene KI-Anwendungen entwickeln und eigene Eindrücke sammeln.
-
-- **Werkzeuge:** Firefox
-
-
-## Challenges: 4 Missionen, 4 Packungen Schnitten, null Unterstützung – Let's hack!
-
-### 1. VM-Check Challenge (Hidden!!!)
-
-- **Ziel:** Wer zuerst checkt, dass er in einer VM ist, gewinnt!
-
-- **Hinweis:** Wenn sie kommen sind die VMs bereits gestartet und laufen im Vollbildmodus! Diese Challenge wird auch nicht erwähnt!
-
-### 2. EXIF-Daten Stripping Challenge
-
-- **Ziel:** Als erster alle Metadaten aus einem Bild entfernen!
-
-- **Zusatz:** Ein Bash-Skript erstellen, das alle Bilder im aktuellen Verzeichnis strippt!
-
-### 3. Zip-Archiv Knacken Challenge
-
-- **Ziel:** Als erster das verschlüsselte Zip-Archiv knacken!
-
-- **Zusatz:** Das Passwort aus der PDF-Datei entfernen!
-
-### 4. VeraCrypt-Verstecken Challenge
-
-- **Ziel:** Einen versteckten VeraCrypt-Container in einem Video verstecken, wobei der äußere Container ein harmloses Rickroll-Meme enthält und das versteckte Volume eine KeePass-Datenbank mit sensiblen Daten beherbergt.
-
-- **Zusatz:** Das Rickroll-Meme, das im äußeren Container versteckt werden soll, wird selbst über das Terminal von YouTube heruntergeladen!
-
-### Abschluss-Challenge: Steganographie
-
-- **Ziel** Die Teilnehmenden bauen Steghide aus dem Quellcode und verstecken die KeePass-Datenbank in einem Bild. Die versteckte Datenbank muss mit dem korrekten Passwort wiederherstellbar sein.
-
-### Belohnung:
-**Eine Packung Manner Schnitten** warten auf die Sieger der einzelnen Challenges!
-
-**Für die Abschlusschallenge** erwartet die Sieger ein besonderer Preis! 
-
-### Regeln:
-- Keine direkte Hilfe von uns!
-- Nur Duck.ai zur Unterstützung erlaubt!
-- Die benötigten Programme sind teilweise **nicht installiert** und müssen von den Jugendlichen selbst über `apt` installiert werden! 
-
----
 
 ## Zielgruppe
 
