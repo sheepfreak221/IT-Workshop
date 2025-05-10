@@ -391,14 +391,6 @@ Einen versteckten Container erstellen und darin eine KeePass-Datenbank ablegen. 
 Facebook-Chat in Pidgin mit OTR verschlüsseln. Was funktioniert? Was nicht? Und warum?
 -->
 
-
-
-## Zielgruppe
-
-- Jugendliche (ca. 15–18 Jahre)
-- Interessierte ohne technische Vorkenntnisse
-- Schulen, Jugendzentren, Hacking Spaces
-
 ---
 
 ### Warum QEMU?
@@ -425,6 +417,13 @@ Da QEMU keine zusätzliche Virtualisierungssoftware benötigt, ist der Systemauf
 
 #### Fazit
 QEMU stellt eine performante, flexible und ressourcenschonende Lösung dar, die besonders für virtuelle Umgebungen im Workshop vorteilhaft ist. Im Vergleich zu VirtualBox und VMware bietet es eine schnellere Einrichtung, bessere Leistung und erweiterte Kompatibilität durch die CPU-Emulation ohne Hardware-Virtualisierung.
+
+
+## Zielgruppe
+
+- Jugendliche (ca. 15–18 Jahre)
+- Interessierte ohne technische Vorkenntnisse
+- Schulen, Jugendzentren, Hacking Spaces
 
 
 
