@@ -38,6 +38,18 @@ Wir haben uns bewusst gegen ein vereinfachtes Schulformat und für ein akademisc
 
 Die Präsentation im Stil einer universitären Vorlesung funktioniert aus mehreren Gründen besonders gut: Sie begegnet den Jugendlichen auf Augenhöhe und vermittelt ihnen das Gefühl, ernst genommen zu werden – nicht als Schüler, sondern als mündige, denkende Menschen. Die hohe Informationsdichte erzeugt dabei keinen Frontalunterricht, sondern schafft Struktur und Orientierung für die praktischen Teile des Workshops. Durch die klare Gliederung in thematische Blöcke können Inhalte gezielt nachgeschlagen und später vertieft werden, was den langfristigen Lernerfolg fördert. Die Folien sind nicht zur passiven Rezeption gedacht, sondern dienen als begleitendes Toolset für Hands-on-Phasen, in denen Theorie und Praxis direkt miteinander verknüpft werden – etwa bei der Analyse von Metadaten oder der Arbeit mit VeraCrypt. Das universitäre Branding der Folien steigert zusätzlich die Motivation: Viele Jugendliche empfinden es als Auszeichnung, mit „echten“ Materialien zu arbeiten, und gewinnen so ein erstes Gefühl für akademische Arbeitsweisen. Gleichzeitig vermittelt das Format nicht nur Inhalte, sondern auch eine Vorstellung davon, wie Lernen an einer Hochschule funktioniert – ein wertvoller Impuls für ihre weitere Bildungsbiografie.
 
+## Didaktische Überlegungen zum Einsatz authentischer Inhalte
+
+Im Rahmen dieses Workshops wird bewusst auf die Verwendung authentischer, realitätsnaher Beispiele gesetzt. Die behandelten Fakenews stammen aus tatsächlichen Quellen (TikTok), die analysierten Bilder mitsamt Metadaten stammen von echten Flickr-Profilen, und sämtliche Inhalte basieren auf relevanten, gegenwärtigen Phänomenen, wie sie Jugendlichen tagtäglich im digitalen Raum begegnen.
+
+Die Entscheidung für echtes Material folgt einem klaren didaktischen Konzept: Jugendliche werden dort abgeholt, wo sie stehen – in einer digitalen Welt, in der Informationsflut, Desinformation und visuelle Medien omnipräsent sind. Um Medienkompetenz, kritisches Denken und digitale Mündigkeit zu fördern, ist es zentral, mit Inhalten zu arbeiten, die ihre Lebensrealität widerspiegeln.
+
+Künstlich konstruierte Beispiele erzeugen oft Distanz oder werden als irrelevant empfunden. Durch die Konfrontation mit unverfälschten Daten und realen Szenarien wird ein erhöhter Identifikationsgrad sowie ein tieferes inhaltliches Verständnis erreicht. Nachhaltiges Lernen gelingt nur, wenn Inhalte nicht nur kognitiv erfasst, sondern auch emotional und sozial als bedeutsam erlebt werden.
+
+Die Verwendung echter Beispiele ermöglicht darüber hinaus die förderliche Auseinandersetzung mit Ambiguität, Mehrdeutigkeit und Unsicherheit – Kompetenzen, die in der heutigen Informationsgesellschaft von zentraler Bedeutung sind. Sie regen zur Diskussion an, fordern Positionierung und aktivieren intrinsische Motivation.
+
+Kurzum: Authentizität schafft Relevanz – und Relevanz ist der Schlüssel zu wirksamem Lernen.
+
 ## Inhalt:
 
 - **Folien/** → Präsentationsfolien (.pdf)
